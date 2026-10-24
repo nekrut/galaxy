@@ -1,0 +1,14 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./tests/vitest/test-plugin" without a file extension (vitest.config.mts:7:28). Add the file extension
+  - import "./tests/vitest/yaml-plugin" without a file extension (vitest.config.mts:8:28). Add the file extension
+  - ESM syntax in a file loaded as CommonJS (tests/vitest/test-plugin.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+  - ESM syntax in a file loaded as CommonJS (tests/vitest/yaml-plugin.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client
+
+
+ Test Files  1 passed (1)
+      Tests  102 passed (102)
+   Start at  09:22:42
+   Duration  1.08s (transform 550ms, setup 349ms, import 422ms, tests 110ms, environment 122ms)

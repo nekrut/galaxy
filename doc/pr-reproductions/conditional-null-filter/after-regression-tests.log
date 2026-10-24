@@ -1,0 +1,104 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./tests/vitest/test-plugin" without a file extension (vitest.config.mts:7:28). Add the file extension
+  - import "./tests/vitest/yaml-plugin" without a file extension (vitest.config.mts:8:28). Add the file extension
+  - ESM syntax in a file loaded as CommonJS (tests/vitest/yaml-plugin.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+  - ESM syntax in a file loaded as CommonJS (tests/vitest/test-plugin.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client
+
+9:29:56 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+129|          :aria-disabled="props.disabled || undefined"
+130|          :aria-busy="props.loading || undefined"
+131|          v-bind="{ ...anchorAttributes, ...$attrs }"
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+132|          @click="onClick">
+133|          <FontAwesomeIcon v-if="props.loading" :icon="faSpinner" spin aria-hidden="true" />
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/packages/ui/src/components/GButton.vue
+9:29:56 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+356|              :aria-expanded="isOpen ? 'true' : 'false'"
+357|              :aria-controls="shouldRenderMenu ? menuId : undefined"
+358|              v-bind="toggleLabelAttrs"
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+359|              @click="onToggleClick"
+360|              @keydown="onKeydown">
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/packages/ui/src/components/GDropdown.vue
+9:29:57 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+87 |          :title="props.tooltip ? undefined : currentTitle"
+88 |          :aria-disabled="props.disabled || undefined"
+89 |          v-bind="{ ...anchorAttributes, ...$attrs }"
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+90 |          @click="onClick">
+91 |          <slot></slot>
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/packages/ui/src/components/GLink.vue
+9:29:57 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+795|              :role="isDialog ? 'dialog' : 'tooltip'"
+796|              :tabindex="isDialog ? -1 : undefined"
+797|              v-bind="isDialog ? dialogName(Boolean(title || $slots.title)) : {}"
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+798|              :style="{ transform: `translate(${x}px, ${y}px)` }">
+799|              <span
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/packages/ui/src/components/GPopover.vue
+9:29:57 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+193|                          :aria-disabled="tab.disabled"
+194|                          :data-tab-title="tab.title"
+195|                          v-bind="tab.titleLinkAttributes"
+   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+196|                          @click.prevent="!tab.disabled && setActive(index)">
+197|                          <TabTitleContent v-if="tab.titleRenderer" :tab="tab" />
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/packages/ui/src/components/GTabs.vue
+9:29:57 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+221|                      :aria-disabled="tab.disabled"
+222|                      :data-tab-title="tab.title"
+223|                      v-bind="tab.titleLinkAttributes"
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+224|                      @click.prevent="!tab.disabled && setActive(index)">
+225|                      <TabTitleContent v-if="tab.titleRenderer" :tab="tab" />
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/packages/ui/src/components/GTabs.vue
+9:29:58 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+721|                                              class="inline-icon-button"
+722|                                              :title="localize(indicator.title)"
+723|                                              v-bind="variantToColor(indicator.variant || 'link')"
+   |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+724|                                              :size="sizeToGSize(indicator.size || 'sm')"
+725|                                              :to="indicator.to"
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/src/components/Common/GCard.vue
+9:29:58 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+878|                                              :disabled="sa.disabled"
+879|                                              :title="localize(sa.title)"
+880|                                              v-bind="variantToColor(sa.variant || 'outline-primary')"
+   |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+881|                                              :size="sizeToGSize(sa.size || 'sm')"
+882|                                              :to="sa.to"
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/src/components/Common/GCard.vue
+9:29:58 AM [vite] (client) warning: (deprecation COMPILER_V_BIND_OBJECT_ORDER) v-bind="obj" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-bind.html
+907|                                                  :disabled="pa.disabled"
+908|                                                  :title="localize(pa.title)"
+909|                                                  v-bind="variantToColor(pa.variant || 'primary')"
+   |                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+910|                                                  :size="sizeToGSize(pa.size || 'sm')"
+911|                                                  :to="pa.to"
+  Plugin: vite:vue
+  File: /media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/src/components/Common/GCard.vue
+
+ Test Files  14 passed (14)
+      Tests  249 passed (249)
+   Start at  09:29:54
+   Duration  4.79s (transform 3.28s, setup 2.04s, import 4.70s, tests 361ms, environment 1.33s)

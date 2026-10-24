@@ -1,0 +1,9 @@
+
+/media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/src/components/Workflow/Editor/modules/terminals.test.ts
+  308:63  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  726:81  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/media/anton/hd2/foundry-atacseq/galaxy-editor-pr/client/src/components/Workflow/Editor/modules/terminals.ts
+  783:63  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 3 problems (0 errors, 3 warnings)
