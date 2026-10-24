@@ -1,0 +1,7 @@
+{
+  "invalid": {
+    "36-input-34-bam": "Cannot connect an optional output to a non-optional input",
+    "37-input-34-meta": "Cannot connect an optional output to a non-optional input"
+  },
+  "connections": 4
+}

@@ -1,0 +1,300 @@
+[
+  {
+    "content_id": null,
+    "id": 31,
+    "input_connections": {},
+    "inputs": [],
+    "label": "Grouped biological BAMs",
+    "name": "Input collection",
+    "outputs": [
+      {
+        "collection": true,
+        "collection_type": "list:list",
+        "collection_type_source": null,
+        "extensions": [
+          "bam"
+        ],
+        "name": "output",
+        "optional": false,
+        "type": "collection"
+      }
+    ],
+    "post_job_actions": {},
+    "tool_state": {},
+    "tool_version": "1.1.0",
+    "type": "data_collection_input",
+    "when": null,
+    "workflow_outputs": [],
+    "position": {
+      "left": 35,
+      "top": 60
+    }
+  },
+  {
+    "content_id": null,
+    "id": 23,
+    "input_connections": {},
+    "inputs": [],
+    "label": "Grouped sample metadata",
+    "name": "Input collection",
+    "outputs": [
+      {
+        "collection": true,
+        "collection_type": "list:list",
+        "collection_type_source": null,
+        "extensions": [
+          "tabular"
+        ],
+        "name": "output",
+        "optional": false,
+        "type": "collection"
+      }
+    ],
+    "post_job_actions": {},
+    "tool_state": {},
+    "tool_version": "1.1.0",
+    "type": "data_collection_input",
+    "when": null,
+    "workflow_outputs": [],
+    "position": {
+      "left": 35,
+      "top": 340
+    }
+  },
+  {
+    "content_id": "foundry_atacseq_merge",
+    "id": 34,
+    "input_connections": {
+      "bams": [
+        {
+          "id": 31,
+          "input_type": "dataset_collection",
+          "output_name": "output"
+        }
+      ],
+      "metas": [
+        {
+          "id": 23,
+          "input_type": "dataset_collection",
+          "output_name": "output"
+        }
+      ]
+    },
+    "inputs": [
+      {
+        "collection_types": [
+          "list"
+        ],
+        "extensions": [
+          "bam"
+        ],
+        "input_type": "dataset_collection",
+        "label": "Bams",
+        "multiple": false,
+        "name": "bams",
+        "optional": false
+      },
+      {
+        "collection_types": [
+          "list"
+        ],
+        "extensions": [
+          "tabular"
+        ],
+        "input_type": "dataset_collection",
+        "label": "Metas",
+        "multiple": false,
+        "name": "metas",
+        "optional": false
+      }
+    ],
+    "label": "merge_replicates",
+    "name": "ATAC-seq merge",
+    "outputs": [
+      {
+        "extensions": [
+          "bam"
+        ],
+        "label": "Bam",
+        "name": "bam",
+        "optional": false,
+        "type": "data"
+      },
+      {
+        "extensions": [
+          "tabular"
+        ],
+        "label": "Meta",
+        "name": "meta",
+        "optional": false,
+        "type": "data"
+      },
+      {
+        "extensions": [
+          "txt"
+        ],
+        "label": "Log",
+        "name": "log",
+        "optional": false,
+        "type": "data"
+      }
+    ],
+    "post_job_actions": {},
+    "tool_state": {
+      "__page__": 0,
+      "__rerun_remap_job_id__": null,
+      "bams": "{\"__class__\": \"ConnectedValue\"}",
+      "heap_mb": "\"4915\"",
+      "level": "\"replicate\"",
+      "metas": "{\"__class__\": \"ConnectedValue\"}"
+    },
+    "tool_version": "1.0.5",
+    "type": "tool",
+    "when": "$(inputs.bams.length > 1)",
+    "workflow_outputs": [],
+    "position": {
+      "left": 440,
+      "top": 170
+    }
+  },
+  {
+    "content_id": "__FILTER_NULL__",
+    "id": 36,
+    "input_connections": {
+      "input": [
+        {
+          "id": 34,
+          "input_type": "dataset_collection",
+          "output_name": "bam"
+        }
+      ]
+    },
+    "inputs": [
+      {
+        "collection_types": [
+          "list",
+          "list:paired"
+        ],
+        "extensions": [
+          "data"
+        ],
+        "input_type": "dataset_collection",
+        "label": "Input Collection",
+        "multiple": false,
+        "name": "input",
+        "optional": false
+      },
+      {
+        "extensions": [
+          "data"
+        ],
+        "input_type": "dataset",
+        "label": "Replace null elements with this dataset",
+        "multiple": false,
+        "name": "replacement",
+        "optional": true
+      }
+    ],
+    "label": "group_nonnull_bams",
+    "name": "Filter null elements",
+    "outputs": [
+      {
+        "collection": true,
+        "collection_type": null,
+        "collection_type_source": "input",
+        "extensions": [
+          "input"
+        ],
+        "label": "input dataset(s) (without null datasets)",
+        "name": "output",
+        "optional": false,
+        "type": "collection"
+      }
+    ],
+    "post_job_actions": {},
+    "tool_state": {
+      "__page__": 0,
+      "__rerun_remap_job_id__": null,
+      "input": "{\"__class__\": \"ConnectedValue\"}",
+      "replacement": "{\"__class__\": \"RuntimeValue\"}"
+    },
+    "tool_version": "1.1.0",
+    "type": "tool",
+    "when": null,
+    "workflow_outputs": [],
+    "position": {
+      "left": 845,
+      "top": 60
+    }
+  },
+  {
+    "content_id": "__FILTER_NULL__",
+    "id": 37,
+    "input_connections": {
+      "input": [
+        {
+          "id": 34,
+          "input_type": "dataset_collection",
+          "output_name": "meta"
+        }
+      ]
+    },
+    "inputs": [
+      {
+        "collection_types": [
+          "list",
+          "list:paired"
+        ],
+        "extensions": [
+          "data"
+        ],
+        "input_type": "dataset_collection",
+        "label": "Input Collection",
+        "multiple": false,
+        "name": "input",
+        "optional": false
+      },
+      {
+        "extensions": [
+          "data"
+        ],
+        "input_type": "dataset",
+        "label": "Replace null elements with this dataset",
+        "multiple": false,
+        "name": "replacement",
+        "optional": true
+      }
+    ],
+    "label": "group_nonnull_meta",
+    "name": "Filter null elements",
+    "outputs": [
+      {
+        "collection": true,
+        "collection_type": null,
+        "collection_type_source": "input",
+        "extensions": [
+          "input"
+        ],
+        "label": "input dataset(s) (without null datasets)",
+        "name": "output",
+        "optional": false,
+        "type": "collection"
+      }
+    ],
+    "post_job_actions": {},
+    "tool_state": {
+      "__page__": 0,
+      "__rerun_remap_job_id__": null,
+      "input": "{\"__class__\": \"ConnectedValue\"}",
+      "replacement": "{\"__class__\": \"RuntimeValue\"}"
+    },
+    "tool_version": "1.1.0",
+    "type": "tool",
+    "when": null,
+    "workflow_outputs": [],
+    "position": {
+      "left": 845,
+      "top": 340
+    }
+  }
+]

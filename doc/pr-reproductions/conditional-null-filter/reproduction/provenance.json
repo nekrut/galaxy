@@ -1,0 +1,5 @@
+{
+  "source": "Authenticated editor-style export of an ATAC workflow on usegalaxy.org. The public reproduction contains only tool/collection schemas, not execution datasets or credentials.",
+  "reproduction": "Five-node local frontend reproduction. The two upstream Apply Rules nodes are represented by typed collection inputs (list:list); merge and null-filter input/output schemas and connections are retained. No server execution is simulated in the screenshot.",
+  "renderer": "Unmodified Galaxy Node.vue and SVGConnection.vue; actual terminalFactory and Pinia stores. Before/after changes only terminals.ts."
+}

@@ -1,0 +1,34 @@
+class: GalaxyWorkflow
+label: Conditional mapped output into Filter null elements
+inputs:
+  input_collection:
+    type: collection
+    collection_type: list
+    format: txt
+  run:
+    type: boolean
+    default: true
+outputs:
+  filtered:
+    outputSource: filter_null/output
+steps:
+  conditional_copy:
+    tool_id: cat1
+    tool_version: 1.0.0
+    in:
+      input1: input_collection
+      when: run
+    when: $(inputs.when)
+    state:
+      input1:
+        __class__: ConnectedValue
+      queries: []
+  filter_null:
+    tool_id: __FILTER_NULL__
+    tool_version: 1.1.0
+    in:
+      input: conditional_copy/out_file1
+    state:
+      input:
+        __class__: ConnectedValue
+      replacement: null

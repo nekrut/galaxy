@@ -1,0 +1,4755 @@
+{
+  "datatypes": [
+    "4dn_pairs",
+    "4dn_pairs.gz",
+    "4dn_pairsam",
+    "4dn_pairsam.gz",
+    "a2m",
+    "a3m",
+    "ab1",
+    "affybatch",
+    "agilentbrukeryep.d.tar",
+    "agilentmasshunter.d.tar",
+    "agp",
+    "amnisflow.cif",
+    "ampvis2",
+    "analyze75",
+    "arff",
+    "arrow",
+    "asn1",
+    "asn1-binary",
+    "augustus",
+    "auspice.json",
+    "avi",
+    "axt",
+    "axt.bz2",
+    "axt.gz",
+    "bam",
+    "bcf",
+    "bcf_uncompressed",
+    "bcsl.model",
+    "bcsl.ts",
+    "bcsp",
+    "beast.trees",
+    "bed",
+    "bed12",
+    "bed6",
+    "bed_tabix.gz",
+    "bedgraph",
+    "bedstrict",
+    "bgzip",
+    "bigbed",
+    "bigwig",
+    "bil",
+    "biom1",
+    "biom2",
+    "blastxml",
+    "blib",
+    "bref3",
+    "brukerbaf.d.tar",
+    "brukertdf.d.tar",
+    "bus",
+    "bwa_index",
+    "bwa_mem2_index",
+    "castep",
+    "cel",
+    "cell",
+    "chain",
+    "chira.sqlite",
+    "chrint",
+    "cif",
+    "cisml",
+    "ckpt",
+    "cmap",
+    "cml",
+    "cnn",
+    "cnr",
+    "cns",
+    "colab.tar",
+    "colab.tar.gz",
+    "consensusxml",
+    "cool",
+    "cps",
+    "cpt",
+    "cram",
+    "csfasta",
+    "csv",
+    "ct",
+    "ctl.result",
+    "cuffdiff.sqlite",
+    "cxb",
+    "cytoscapejson",
+    "d3_hierarchy",
+    "daa",
+    "dada2_dada",
+    "dada2_errorrates",
+    "dada2_mergepairs",
+    "dada2_sequencetable",
+    "dada2_uniques",
+    "dbn",
+    "dbnsfp.tabular",
+    "dcd",
+    "dcm",
+    "deacon.idx",
+    "deeptools_compute_matrix_archive",
+    "deeptools_coverage_matrix",
+    "den_fmt",
+    "dlib",
+    "docx",
+    "drf",
+    "dta",
+    "dta2d",
+    "dzi",
+    "edr",
+    "edta",
+    "egapx_local_cache",
+    "eland",
+    "elandmulti",
+    "elib",
+    "embl",
+    "encodepeak",
+    "eset",
+    "excel.xls",
+    "expression.json",
+    "extxyz",
+    "fai",
+    "fast5.tar",
+    "fast5.tar.bz2",
+    "fast5.tar.gz",
+    "fast5.tar.xz",
+    "fasta",
+    "fasta.bz2",
+    "fasta.gz",
+    "fastg",
+    "fastk_hist",
+    "fastk_ktab",
+    "fastk_ktab_tar",
+    "fastk_prof",
+    "fastq",
+    "fastq.bz2",
+    "fastq.gz",
+    "fastqcssanger",
+    "fastqcssanger.bz2",
+    "fastqcssanger.gz",
+    "fastqillumina",
+    "fastqillumina.bz2",
+    "fastqillumina.gz",
+    "fastqsanger",
+    "fastqsanger.bz2",
+    "fastqsanger.gz",
+    "fastqsolexa",
+    "fastqsolexa.bz2",
+    "fastqsolexa.gz",
+    "fcs",
+    "featurexml",
+    "feflow.fem",
+    "ffdata",
+    "ffindex",
+    "fits",
+    "flac",
+    "flowclr",
+    "flowframe",
+    "flowmfi",
+    "flowscore",
+    "flowset",
+    "flowstat1",
+    "flowstat2",
+    "flowstat3",
+    "flowtext",
+    "flv",
+    "fped",
+    "fphe",
+    "fps",
+    "fqtoc",
+    "freq.json",
+    "fsom",
+    "gafa.sqlite",
+    "gal",
+    "gam",
+    "gatk_dbsnp",
+    "gatk_interval",
+    "gatk_recal",
+    "gatk_report",
+    "gatk_tranche",
+    "gbwt",
+    "gbz",
+    "gemini.sqlite",
+    "genbank",
+    "genbank.gz",
+    "genenotebook",
+    "geojson",
+    "gfa1",
+    "gfa1.gz",
+    "gfa2",
+    "gfa2.gz",
+    "gff",
+    "gff3",
+    "gff3.bz2",
+    "gff3.gz",
+    "gff_tabix.gz",
+    "gii",
+    "gii.gz",
+    "gmsh.geo",
+    "gmsh.msh",
+    "gocad.sg",
+    "gpr",
+    "grd",
+    "grd.tgz",
+    "grib",
+    "gro",
+    "gtf",
+    "gtf.gz",
+    "gwas_bgzip",
+    "gwas_tabix.gz",
+    "h5",
+    "h5ad",
+    "h5mlm",
+    "h5mu",
+    "hal",
+    "hal.hg",
+    "hal.pg",
+    "hdf4",
+    "hdr",
+    "hdt",
+    "hep.root",
+    "hexrd.accepted_orientations",
+    "hexrd.eta_ome.npz",
+    "hexrd.images.npz",
+    "hexrd.materials.h5",
+    "hexrd.scored_orientations.npz",
+    "hexrd.yml",
+    "hhr",
+    "hic",
+    "hlf",
+    "hmm2",
+    "hmm3",
+    "hyphy_results.json",
+    "icm",
+    "idat",
+    "ideaspre",
+    "idpdb",
+    "idxml",
+    "imgt.json",
+    "imzml",
+    "inchi",
+    "inp",
+    "inpcrd",
+    "intermine_tabular",
+    "interval",
+    "ipynb",
+    "isa-json",
+    "isa-tab",
+    "itp",
+    "jellyfish",
+    "jp2",
+    "json",
+    "jsonld",
+    "juicer_medium_tabix.gz",
+    "kallisto.idx",
+    "kmindex",
+    "kroenik",
+    "las",
+    "lav",
+    "laz",
+    "ldindep",
+    "len",
+    "lexicmap_index",
+    "loom",
+    "lped",
+    "ludwig_model",
+    "m4a",
+    "maf",
+    "maf.bz2",
+    "maf.gz",
+    "magres",
+    "malist",
+    "markdown",
+    "mascotxml",
+    "maskinfo-asn1",
+    "maskinfo-asn1-binary",
+    "mbi",
+    "mcool",
+    "mdp",
+    "memepsp",
+    "memexml",
+    "meryldb",
+    "metacyto_clr.txt",
+    "metacyto_stats.txt",
+    "metacyto_summary.txt",
+    "mgf",
+    "mkv",
+    "mlmodel",
+    "mol",
+    "mol2",
+    "mongodb",
+    "mothur.accnos",
+    "mothur.align",
+    "mothur.align.check",
+    "mothur.align.report",
+    "mothur.axes",
+    "mothur.cons.taxonomy",
+    "mothur.count_table",
+    "mothur.design",
+    "mothur.dist",
+    "mothur.filter",
+    "mothur.filtered.masked.quan",
+    "mothur.filtered.quan",
+    "mothur.freq",
+    "mothur.groups",
+    "mothur.list",
+    "mothur.lower.dist",
+    "mothur.map",
+    "mothur.masked.quan",
+    "mothur.names",
+    "mothur.oligos",
+    "mothur.otu",
+    "mothur.otu.corr",
+    "mothur.otulabels",
+    "mothur.pair.dist",
+    "mothur.quan",
+    "mothur.rabund",
+    "mothur.rdp.taxonomy",
+    "mothur.ref.taxonomy",
+    "mothur.relabund",
+    "mothur.sabund",
+    "mothur.seq.taxonomy",
+    "mothur.sff.flow",
+    "mothur.shared",
+    "mothur.square.dist",
+    "mothur.summary",
+    "mothur.tax.summary",
+    "mothur.tre",
+    "mov",
+    "mp3",
+    "mp4",
+    "mpg",
+    "mrc",
+    "mrm",
+    "ms2",
+    "msh",
+    "msp",
+    "mtx",
+    "mz.sqlite",
+    "mz5",
+    "mzdata",
+    "mzid",
+    "mzlite",
+    "mzml",
+    "mzmlb",
+    "mzq",
+    "mzqc",
+    "mztab",
+    "mztab2",
+    "mzxml",
+    "n3",
+    "ncbi_genome_dataset.zip",
+    "ncbitaxonomy.sqlite",
+    "ndx",
+    "neostore.zip",
+    "neper.mscell",
+    "neper.points",
+    "neper.points.tsv",
+    "neper.tesr",
+    "neper.tess",
+    "netcdf",
+    "newick",
+    "nex",
+    "nhx",
+    "nii1",
+    "nii1.gz",
+    "nii2",
+    "nii2.gz",
+    "nmrml",
+    "npy",
+    "npz",
+    "nt",
+    "obfs",
+    "obo",
+    "odgi",
+    "ogg",
+    "ome.tiff",
+    "ome_zarr.zip",
+    "onnx",
+    "osw",
+    "owl",
+    "oxlicg",
+    "oxligl",
+    "oxling",
+    "oxliss",
+    "oxlist",
+    "oxlits",
+    "paf",
+    "paf.gz",
+    "par",
+    "param",
+    "paramxml",
+    "parquet",
+    "pbed",
+    "pdb",
+    "pdbqt",
+    "pdf",
+    "peff",
+    "peplist",
+    "peptideshaker_archive",
+    "pepxml",
+    "pepxml.tsv",
+    "phar",
+    "phylip",
+    "phyloseq",
+    "phyloxml",
+    "picard_interval_list",
+    "pileup",
+    "pithya.model",
+    "pithya.property",
+    "pithya.result",
+    "plyascii",
+    "plybinary",
+    "png",
+    "pnts",
+    "pod5",
+    "postgresql",
+    "pov",
+    "pphe",
+    "pptx",
+    "pqp",
+    "pqr",
+    "pretext",
+    "prj",
+    "prm",
+    "prmtop",
+    "probam",
+    "probed",
+    "protobuf2",
+    "protobuf3",
+    "protxml",
+    "protxml.tsv",
+    "psl",
+    "psms",
+    "pssm-asn1",
+    "ptkscmp",
+    "qcml",
+    "qiime2.tabular",
+    "qname_sorted.bam",
+    "qual454",
+    "qualillumina",
+    "qualsolexa",
+    "qualsolid",
+    "qza",
+    "qzv",
+    "raster.asc",
+    "rd",
+    "rdata",
+    "rdata.camera.negative",
+    "rdata.camera.positive",
+    "rdata.camera.quick",
+    "rdata.msnbase.raw",
+    "rdata.sce",
+    "rdata.se",
+    "rdata.xcms.fillpeaks",
+    "rdata.xcms.findchrompeaks",
+    "rdata.xcms.group",
+    "rdata.xcms.raw",
+    "rdata.xcms.retcor",
+    "rdf",
+    "rdock_as",
+    "rds",
+    "rma6",
+    "rmd",
+    "rmsx.json",
+    "rna_eps",
+    "rrd",
+    "safetensors",
+    "sam",
+    "sbml",
+    "sbol",
+    "scf",
+    "scidx",
+    "scool",
+    "sdf",
+    "searchgui_archive",
+    "sf3",
+    "sff",
+    "shp",
+    "sif",
+    "smat",
+    "smi",
+    "snaphmm",
+    "snpeffdb",
+    "snpmatrix",
+    "snpsiftdbnsfp",
+    "snptest",
+    "source.c",
+    "source.cpp",
+    "source.cs",
+    "source.go",
+    "source.h",
+    "source.py",
+    "source.rs",
+    "sourmash.sig",
+    "spalndba",
+    "spalndbnp",
+    "spatialdata.zip",
+    "spec.xml",
+    "splib",
+    "splib_noindex",
+    "sqlite",
+    "sqmass",
+    "sra",
+    "sra_manifest.tabular",
+    "star",
+    "stl",
+    "stockholm",
+    "storm.check",
+    "storm.sample",
+    "tabular",
+    "tabular.gz",
+    "taf",
+    "taf.gz",
+    "tandem",
+    "tar",
+    "tar.bz2",
+    "tar.gz",
+    "taxonomy",
+    "tck",
+    "tei",
+    "textgrid",
+    "tfevents",
+    "tgz",
+    "thermo.raw",
+    "tiff",
+    "toml",
+    "top",
+    "tpr",
+    "trackhub",
+    "trafoxml",
+    "traml",
+    "trk",
+    "trr",
+    "tsv",
+    "ttl",
+    "twobit",
+    "txt",
+    "ucsc.net",
+    "uniprotxml",
+    "unsorted.bam",
+    "vcf",
+    "vcf_bgzip",
+    "vel",
+    "velvet",
+    "vg",
+    "vg.dist",
+    "vg.gamp",
+    "vg.gg",
+    "vg.loci",
+    "vg.min",
+    "vg.snarls",
+    "vg.zipcodes",
+    "visium.tar.gz",
+    "vitessce.json",
+    "vtkascii",
+    "vtkbinary",
+    "vtkxml",
+    "vtpascii",
+    "vtpbinary",
+    "watersmasslynx.raw.tar",
+    "wav",
+    "webm",
+    "wiff",
+    "wiff.tar",
+    "wiff2",
+    "wiff2.tar",
+    "wig",
+    "wma",
+    "wmv",
+    "xg",
+    "xgmml",
+    "xlsx",
+    "xmfa",
+    "xml",
+    "xquest.xml",
+    "xsd",
+    "xtc",
+    "xvg",
+    "xyz",
+    "yaml",
+    "zarr.zip",
+    "zip",
+    "zset.geof"
+  ],
+  "datatypes_mapping": {
+    "ext_to_class_name": {
+      "source.h": "galaxy.datatypes.registry.Text",
+      "source.c": "galaxy.datatypes.registry.Text",
+      "source.cpp": "galaxy.datatypes.registry.Text",
+      "source.py": "galaxy.datatypes.registry.Text",
+      "source.go": "galaxy.datatypes.registry.Text",
+      "source.rs": "galaxy.datatypes.registry.Text",
+      "source.cs": "galaxy.datatypes.registry.Text",
+      "markdown": "galaxy.datatypes.registry.Text",
+      "rmd": "galaxy.datatypes.registry.Text",
+      "hep.root": "galaxy.datatypes.registry.Binary",
+      "jp2": "galaxy.datatypes.binary.JP2",
+      "ab1": "galaxy.datatypes.binary.Ab1",
+      "a2m": "galaxy.datatypes.registry.Fasta",
+      "afg": "galaxy.datatypes.assembly.Amos",
+      "agp": "galaxy.datatypes.goldenpath.GoldenPath",
+      "alto": "galaxy.datatypes.xml.Alto",
+      "page.xml": "galaxy.datatypes.xml.PageXml",
+      "abbyy.xml": "galaxy.datatypes.xml.AbbyyXml",
+      "hocr": "galaxy.datatypes.text.Hocr",
+      "anvio_cog_profile": "galaxy.datatypes.registry.AnvioComposite",
+      "anvio_composite": "galaxy.datatypes.anvio.AnvioComposite",
+      "anvio_classifier": "galaxy.datatypes.registry.Data",
+      "anvio_contigs_db": "galaxy.datatypes.anvio.AnvioContigsDB",
+      "anvio_db": "galaxy.datatypes.anvio.AnvioDB",
+      "anvio_genomes_db": "galaxy.datatypes.anvio.AnvioGenomesDB",
+      "anvio_pan_db": "galaxy.datatypes.anvio.AnvioPanDB",
+      "anvio_pfam_profile": "galaxy.datatypes.registry.AnvioComposite",
+      "anvio_profile_db": "galaxy.datatypes.anvio.AnvioProfileDB",
+      "anvio_samples_db": "galaxy.datatypes.anvio.AnvioSamplesDB",
+      "anvio_state": "galaxy.datatypes.registry.Json",
+      "anvio_structure_db": "galaxy.datatypes.anvio.AnvioStructureDB",
+      "anvio_variability": "galaxy.datatypes.registry.TSV",
+      "arff": "galaxy.datatypes.text.Arff",
+      "paf": "galaxy.datatypes.text.Paf",
+      "paf.gz": "galaxy.datatypes.registry.PafGz",
+      "taf": "galaxy.datatypes.text.Taf",
+      "taf.gz": "galaxy.datatypes.registry.TafGz",
+      "gfa1": "galaxy.datatypes.text.Gfa1",
+      "gfa1.gz": "galaxy.datatypes.registry.Gfa1Gz",
+      "gfa2": "galaxy.datatypes.text.Gfa2",
+      "gfa2.gz": "galaxy.datatypes.registry.Gfa2Gz",
+      "asn1": "galaxy.datatypes.data.GenericAsn1",
+      "asn1-binary": "galaxy.datatypes.binary.GenericAsn1Binary",
+      "axt": "galaxy.datatypes.sequence.Axt",
+      "axt.gz": "galaxy.datatypes.registry.AxtGz",
+      "axt.bz2": "galaxy.datatypes.registry.AxtBz2",
+      "fli": "galaxy.datatypes.tabular.FeatureLocationIndex",
+      "bam": "galaxy.datatypes.binary.Bam",
+      "bai": "galaxy.datatypes.registry.Binary",
+      "qname_input_sorted.bam": "galaxy.datatypes.binary.BamInputSorted",
+      "qname_sorted.bam": "galaxy.datatypes.binary.BamQuerynameSorted",
+      "unsorted.bam": "galaxy.datatypes.binary.BamNative",
+      "probam": "galaxy.datatypes.binary.ProBam",
+      "cram": "galaxy.datatypes.binary.CRAM",
+      "bed": "galaxy.datatypes.interval.Bed",
+      "bedgraph": "galaxy.datatypes.interval.BedGraph",
+      "bedstrict": "galaxy.datatypes.interval.BedStrict",
+      "bed6": "galaxy.datatypes.interval.Bed6",
+      "bed12": "galaxy.datatypes.interval.Bed12",
+      "probed": "galaxy.datatypes.interval.ProBed",
+      "len": "galaxy.datatypes.chrominfo.ChromInfo",
+      "daa": "galaxy.datatypes.binary.DAA",
+      "rma6": "galaxy.datatypes.binary.RMA6",
+      "dmnd": "galaxy.datatypes.binary.DMND",
+      "parquet": "galaxy.datatypes.binary.Parquet",
+      "arrow": "galaxy.datatypes.registry.Binary",
+      "idat": "galaxy.datatypes.binary.Idat",
+      "bigbed": "galaxy.datatypes.binary.BigBed",
+      "bigwig": "galaxy.datatypes.binary.BigWig",
+      "cxb": "galaxy.datatypes.registry.Binary",
+      "chrint": "galaxy.datatypes.interval.ChromatinInteractions",
+      "csv": "galaxy.datatypes.tabular.CSV",
+      "geocsv": "galaxy.datatypes.tabular.GeoCSV",
+      "tsv": "galaxy.datatypes.tabular.TSV",
+      "intermine_tabular": "galaxy.datatypes.registry.TSV",
+      "customtrack": "galaxy.datatypes.interval.CustomTrack",
+      "bowtie_color_index": "galaxy.datatypes.ngsindex.BowtieColorIndex",
+      "bowtie_base_index": "galaxy.datatypes.ngsindex.BowtieBaseIndex",
+      "csfasta": "galaxy.datatypes.sequence.csFasta",
+      "data": "galaxy.datatypes.data.Data",
+      "gz": "galaxy.datatypes.registry.Binary",
+      "binary": "galaxy.datatypes.binary.Binary",
+      "las": "galaxy.datatypes.registry.Binary",
+      "laz": "galaxy.datatypes.registry.Binary",
+      "pnts": "galaxy.datatypes.binary.Binary",
+      "d3_hierarchy": "galaxy.datatypes.registry.Json",
+      "cytoscapejson": "galaxy.datatypes.text.CytoscapeJson",
+      "freq.json": "galaxy.datatypes.registry.Json",
+      "imgt.json": "galaxy.datatypes.text.ImgtJson",
+      "geojson": "galaxy.datatypes.text.GeoJson",
+      "vitessce.json": "galaxy.datatypes.text.VitessceJson",
+      "auspice.json": "galaxy.datatypes.text.AuspiceJson",
+      "data_manager_json": "galaxy.datatypes.registry.DataManagerJson",
+      "dbn": "galaxy.datatypes.sequence.DotBracket",
+      "fai": "galaxy.datatypes.registry.Tabular",
+      "fasta": "galaxy.datatypes.sequence.Fasta",
+      "fasta.gz": "galaxy.datatypes.registry.FastaGz",
+      "fasta.bz2": "galaxy.datatypes.registry.FastaBz2",
+      "fastg": "galaxy.datatypes.sequence.Fastg",
+      "fastq": "galaxy.datatypes.sequence.Fastq",
+      "fastq.gz": "galaxy.datatypes.registry.FastqGz",
+      "fastq.bz2": "galaxy.datatypes.registry.FastqBz2",
+      "fastqsanger": "galaxy.datatypes.sequence.FastqSanger",
+      "fastqsanger.gz": "galaxy.datatypes.registry.FastqSangerGz",
+      "fastqsanger.bz2": "galaxy.datatypes.registry.FastqSangerBz2",
+      "fastqsolexa": "galaxy.datatypes.sequence.FastqSolexa",
+      "fastqsolexa.gz": "galaxy.datatypes.registry.FastqSolexaGz",
+      "fastqsolexa.bz2": "galaxy.datatypes.registry.FastqSolexaBz2",
+      "fastqcssanger": "galaxy.datatypes.sequence.FastqCSSanger",
+      "fastqcssanger.gz": "galaxy.datatypes.registry.FastqCSSangerGz",
+      "fastqcssanger.bz2": "galaxy.datatypes.registry.FastqCSSangerBz2",
+      "fastqillumina": "galaxy.datatypes.sequence.FastqIllumina",
+      "fastqillumina.gz": "galaxy.datatypes.registry.FastqIlluminaGz",
+      "fastqillumina.bz2": "galaxy.datatypes.registry.FastqIlluminaBz2",
+      "fqtoc": "galaxy.datatypes.sequence.SequenceSplitLocations",
+      "eland": "galaxy.datatypes.tabular.Eland",
+      "elandmulti": "galaxy.datatypes.tabular.ElandMulti",
+      "genetrack": "galaxy.datatypes.tracks.GeneTrack",
+      "a3m": "galaxy.datatypes.registry.Fasta",
+      "gff": "galaxy.datatypes.interval.Gff",
+      "gff3": "galaxy.datatypes.interval.Gff3",
+      "gff3.gz": "galaxy.datatypes.registry.Gff3Gz",
+      "gff3.bz2": "galaxy.datatypes.registry.Gff3Bz2",
+      "gif": "galaxy.datatypes.images.Gif",
+      "gmaj.zip": "galaxy.datatypes.images.Gmaj",
+      "graph_dot": "galaxy.datatypes.registry.Text",
+      "gtf": "galaxy.datatypes.interval.Gtf",
+      "gtf.gz": "galaxy.datatypes.registry.GtfGz",
+      "toolshed.gz": "galaxy.datatypes.registry.Binary",
+      "hdf4": "galaxy.datatypes.registry.Binary",
+      "h5": "galaxy.datatypes.binary.H5",
+      "scool": "galaxy.datatypes.registry.H5",
+      "grib": "galaxy.datatypes.binary.Grib",
+      "loom": "galaxy.datatypes.binary.Loom",
+      "h5ad": "galaxy.datatypes.binary.Anndata",
+      "h5mu": "galaxy.datatypes.registry.H5",
+      "visium.tar.gz": "galaxy.datatypes.registry.Visium",
+      "mz5": "galaxy.datatypes.registry.H5",
+      "mzmlb": "galaxy.datatypes.registry.H5",
+      "mbi": "galaxy.datatypes.registry.H5",
+      "hyphy_results.json": "galaxy.datatypes.registry.Json",
+      "hivtrace": "galaxy.datatypes.registry.Json",
+      "hic": "galaxy.datatypes.binary.Hic",
+      "cool": "galaxy.datatypes.binary.Cool",
+      "mcool": "galaxy.datatypes.binary.MCool",
+      "h5mlm": "galaxy.datatypes.binary.H5MLM",
+      "ludwig_model": "galaxy.datatypes.binary.LudwigModel",
+      "html": "galaxy.datatypes.text.Html",
+      "ludwig_report.html": "galaxy.datatypes.registry.Html",
+      "interval": "galaxy.datatypes.interval.Interval",
+      "jellyfish": "galaxy.datatypes.registry.Binary",
+      "fastk_ktab": "galaxy.datatypes.registry.Binary",
+      "fastk_hist": "galaxy.datatypes.registry.Binary",
+      "fastk_prof": "galaxy.datatypes.registry.Binary",
+      "fastk_ktab_tar": "galaxy.datatypes.registry.CompressedArchive",
+      "npy": "galaxy.datatypes.binary.Numpy",
+      "isa-tab": "galaxy.datatypes.isa.IsaTab",
+      "isa-json": "galaxy.datatypes.isa.IsaJson",
+      "picard_interval_list": "galaxy.datatypes.registry.Tabular",
+      "gatk_interval": "galaxy.datatypes.registry.Text",
+      "gatk_report": "galaxy.datatypes.registry.Text",
+      "gatk_dbsnp": "galaxy.datatypes.registry.Tabular",
+      "gatk_tranche": "galaxy.datatypes.registry.Tabular",
+      "gatk_recal": "galaxy.datatypes.registry.Tabular",
+      "cnn": "galaxy.datatypes.registry.Tabular",
+      "cns": "galaxy.datatypes.registry.Tabular",
+      "cnr": "galaxy.datatypes.registry.Tabular",
+      "hhr": "galaxy.datatypes.registry.Text",
+      "jpg": "galaxy.datatypes.images.Jpg",
+      "tiff": "galaxy.datatypes.images.Tiff",
+      "tf2": "galaxy.datatypes.registry.Tiff",
+      "tf8": "galaxy.datatypes.registry.Tiff",
+      "btf": "galaxy.datatypes.registry.Tiff",
+      "tif": "galaxy.datatypes.registry.Tiff",
+      "svs": "galaxy.datatypes.registry.Tiff",
+      "scn": "galaxy.datatypes.registry.Tiff",
+      "bif": "galaxy.datatypes.registry.Tiff",
+      "ome.tiff": "galaxy.datatypes.images.OMETiff",
+      "dcm": "galaxy.datatypes.registry.Dicom",
+      "vms": "galaxy.datatypes.images.Hamamatsu",
+      "vmu": "galaxy.datatypes.registry.Hamamatsu",
+      "ndpi": "galaxy.datatypes.registry.Hamamatsu",
+      "mrxs": "galaxy.datatypes.images.Mirax",
+      "svslide": "galaxy.datatypes.images.Sakura",
+      "bmp": "galaxy.datatypes.images.Bmp",
+      "im": "galaxy.datatypes.images.Im",
+      "pcd": "galaxy.datatypes.images.Pcd",
+      "pcx": "galaxy.datatypes.images.Pcx",
+      "ppm": "galaxy.datatypes.images.Ppm",
+      "psd": "galaxy.datatypes.images.Psd",
+      "xbm": "galaxy.datatypes.images.Xbm",
+      "xpm": "galaxy.datatypes.images.Xpm",
+      "rgb": "galaxy.datatypes.images.Rgb",
+      "pbm": "galaxy.datatypes.images.Pbm",
+      "pgm": "galaxy.datatypes.images.Pgm",
+      "nrrd": "galaxy.datatypes.images.Nrrd",
+      "nhdr": "galaxy.datatypes.registry.Nrrd",
+      "rna_eps": "galaxy.datatypes.sequence.RNADotPlotMatrix",
+      "qza": "galaxy.datatypes.qiime2.QIIME2Artifact",
+      "qzv": "galaxy.datatypes.qiime2.QIIME2Visualization",
+      "qiime2.tabular": "galaxy.datatypes.qiime2.QIIME2Metadata",
+      "zip": "galaxy.datatypes.binary.CompressedZipArchive",
+      "mfa_acoustic_model.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "mfa_corpus.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "mfa_g2p_model.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "mfa_language_model.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "mfa_tokenizer_model.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "mfa_textgrids.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "mfa.dict": "galaxy.datatypes.registry.Text",
+      "ncbi_genome_dataset.zip": "galaxy.datatypes.registry.CompressedZipArchive",
+      "zarr.zip": "galaxy.datatypes.binary.CompressedZarrZipArchive",
+      "ome_zarr.zip": "galaxy.datatypes.binary.CompressedOMEZarrZipArchive",
+      "spatialdata.zip": "galaxy.datatypes.binary.SpatialData",
+      "tar": "galaxy.datatypes.registry.CompressedArchive",
+      "tar.gz": "galaxy.datatypes.registry.CompressedArchiveGz",
+      "tar.bz2": "galaxy.datatypes.registry.CompressedArchiveBz2",
+      "directory": "galaxy.datatypes.data.Directory",
+      "bwa_index": "galaxy.datatypes.registry.Directory",
+      "bwa_mem2_index": "galaxy.datatypes.registry.Directory",
+      "egapx_local_cache": "galaxy.datatypes.registry.Directory",
+      "lexicmap_index": "galaxy.datatypes.registry.Directory",
+      "kmindex": "galaxy.datatypes.registry.Directory",
+      "zarr": "galaxy.datatypes.data.ZarrDirectory",
+      "ome_zarr": "galaxy.datatypes.images.OMEZarr",
+      "yaml": "galaxy.datatypes.text.Yaml",
+      "mrm": "galaxy.datatypes.registry.Tabular",
+      "dta": "galaxy.datatypes.proteomics.Dta",
+      "dta2d": "galaxy.datatypes.proteomics.Dta2d",
+      "edta": "galaxy.datatypes.proteomics.Edta",
+      "pepxml": "galaxy.datatypes.proteomics.PepXml",
+      "raw_pepxml": "galaxy.datatypes.registry.PepXml",
+      "peptideprophet_pepxml": "galaxy.datatypes.registry.PepXml",
+      "interprophet_pepxml": "galaxy.datatypes.registry.PepXml",
+      "protxml": "galaxy.datatypes.proteomics.ProtXML",
+      "paramxml": "galaxy.datatypes.registry.ParamXml",
+      "kroenik": "galaxy.datatypes.proteomics.Kroenik",
+      "peplist": "galaxy.datatypes.proteomics.PepList",
+      "psms": "galaxy.datatypes.proteomics.PSMS",
+      "pepxml.tsv": "galaxy.datatypes.proteomics.PepXmlReport",
+      "protxml.tsv": "galaxy.datatypes.proteomics.ProtXmlReport",
+      "mascotdat": "galaxy.datatypes.proteomics.MascotDat",
+      "mzid": "galaxy.datatypes.proteomics.MzIdentML",
+      "idxml": "galaxy.datatypes.proteomics.IdXML",
+      "tandem": "galaxy.datatypes.proteomics.TandemXML",
+      "sirius.ms": "galaxy.datatypes.registry.Text",
+      "thermo.raw": "galaxy.datatypes.proteomics.ThermoRAW",
+      "brukerbaf.d.tar": "galaxy.datatypes.binary.BafTar",
+      "agilentbrukeryep.d.tar": "galaxy.datatypes.binary.YepTar",
+      "brukertdf.d.tar": "galaxy.datatypes.binary.TdfTar",
+      "agilentmasshunter.d.tar": "galaxy.datatypes.binary.MassHunterTar",
+      "watersmasslynx.raw.tar": "galaxy.datatypes.binary.MassLynxTar",
+      "wiff.tar": "galaxy.datatypes.binary.WiffTar",
+      "wiff2.tar": "galaxy.datatypes.binary.Wiff2Tar",
+      "mascotxml": "galaxy.datatypes.proteomics.MascotXML",
+      "mztab": "galaxy.datatypes.proteomics.MzTab",
+      "mztab2": "galaxy.datatypes.proteomics.MzTab2",
+      "mzml": "galaxy.datatypes.proteomics.MzML",
+      "nmrml": "galaxy.datatypes.proteomics.NmrML",
+      "meryldb": "galaxy.datatypes.registry.Meryldb",
+      "bref3": "galaxy.datatypes.binary.Bref3",
+      "mgf": "galaxy.datatypes.proteomics.Mgf",
+      "wiff": "galaxy.datatypes.proteomics.Wiff",
+      "wiff2": "galaxy.datatypes.proteomics.Wiff2",
+      "mzxml": "galaxy.datatypes.proteomics.MzXML",
+      "mzdata": "galaxy.datatypes.proteomics.MzData",
+      "ms2": "galaxy.datatypes.proteomics.Ms2",
+      "mzq": "galaxy.datatypes.proteomics.MzQuantML",
+      "sqlite": "galaxy.datatypes.binary.SQlite",
+      "mz.sqlite": "galaxy.datatypes.binary.MzSQlite",
+      "mzlite": "galaxy.datatypes.binary.Mzlite",
+      "osw": "galaxy.datatypes.binary.OSW",
+      "pqp": "galaxy.datatypes.binary.PQP",
+      "traml": "galaxy.datatypes.proteomics.TraML",
+      "trafoxml": "galaxy.datatypes.proteomics.TrafoXML",
+      "featurexml": "galaxy.datatypes.proteomics.FeatureXML",
+      "consensusxml": "galaxy.datatypes.proteomics.ConsensusXML",
+      "uniprotxml": "galaxy.datatypes.proteomics.UniProtXML",
+      "xquest.xml": "galaxy.datatypes.proteomics.XquestXML",
+      "spec.xml": "galaxy.datatypes.proteomics.XquestSpecXML",
+      "qcml": "galaxy.datatypes.proteomics.QCML",
+      "mzqc": "galaxy.datatypes.registry.Json",
+      "msp": "galaxy.datatypes.proteomics.Msp",
+      "splib_noindex": "galaxy.datatypes.proteomics.SPLibNoIndex",
+      "splib": "galaxy.datatypes.proteomics.SPLib",
+      "blib": "galaxy.datatypes.binary.BlibSQlite",
+      "dlib": "galaxy.datatypes.binary.DlibSQlite",
+      "elib": "galaxy.datatypes.binary.ElibSQlite",
+      "hlf": "galaxy.datatypes.proteomics.XHunterAslFormat",
+      "idpdb": "galaxy.datatypes.binary.IdpDB",
+      "sf3": "galaxy.datatypes.proteomics.Sf3",
+      "cps": "galaxy.datatypes.registry.Binary",
+      "ct": "galaxy.datatypes.tabular.ConnectivityTable",
+      "postgresql": "galaxy.datatypes.binary.PostgresqlArchive",
+      "mongodb": "galaxy.datatypes.binary.MongoDBArchive",
+      "genenotebook": "galaxy.datatypes.binary.GeneNoteBook",
+      "searchgui_archive": "galaxy.datatypes.binary.SearchGuiArchive",
+      "fast5.tar": "galaxy.datatypes.binary.Fast5Archive",
+      "fast5.tar.gz": "galaxy.datatypes.binary.Fast5ArchiveGz",
+      "fast5.tar.bz2": "galaxy.datatypes.binary.Fast5ArchiveBz2",
+      "fast5.tar.xz": "galaxy.datatypes.binary.Fast5ArchiveXz",
+      "pod5": "galaxy.datatypes.binary.Pod5",
+      "peptideshaker_archive": "galaxy.datatypes.registry.CompressedArchive",
+      "percin": "galaxy.datatypes.registry.Tabular",
+      "percout": "galaxy.datatypes.registry.GenericXml",
+      "hardklor": "galaxy.datatypes.registry.Tabular",
+      "kronik": "galaxy.datatypes.registry.Tabular",
+      "imzml": "galaxy.datatypes.proteomics.ImzML",
+      "analyze75": "galaxy.datatypes.images.Analyze75",
+      "nii1": "galaxy.datatypes.images.Nifti1",
+      "nii1.gz": "galaxy.datatypes.registry.Nifti1Gz",
+      "nii2": "galaxy.datatypes.images.Nifti2",
+      "nii2.gz": "galaxy.datatypes.registry.Nifti2Gz",
+      "gii": "galaxy.datatypes.images.Gifti",
+      "gii.gz": "galaxy.datatypes.registry.GiftiGz",
+      "tck": "galaxy.datatypes.images.Tck",
+      "trk": "galaxy.datatypes.images.Trk",
+      "mrc": "galaxy.datatypes.images.Mrc2014",
+      "star": "galaxy.datatypes.images.Star",
+      "peff": "galaxy.datatypes.proteomics.PEFF",
+      "toml": "galaxy.datatypes.registry.Text",
+      "colab.tar": "galaxy.datatypes.registry.CompressedArchive",
+      "colab.tar.gz": "galaxy.datatypes.registry.CompressedArchiveGz",
+      "fcs": "galaxy.datatypes.flow.FCS",
+      "flowtext": "galaxy.datatypes.registry.Tabular",
+      "flowclr": "galaxy.datatypes.registry.Tabular",
+      "flowmfi": "galaxy.datatypes.registry.Tabular",
+      "flowstat1": "galaxy.datatypes.registry.Tabular",
+      "flowstat2": "galaxy.datatypes.registry.Tabular",
+      "flowstat3": "galaxy.datatypes.registry.Tabular",
+      "flowscore": "galaxy.datatypes.registry.Tabular",
+      "flowframe": "galaxy.datatypes.registry.RData",
+      "fsom": "galaxy.datatypes.registry.RData",
+      "flowset": "galaxy.datatypes.registry.RData",
+      "amnisflow.cif": "galaxy.datatypes.registry.Tiff",
+      "metacyto_clr.txt": "galaxy.datatypes.registry.Tabular",
+      "metacyto_summary.txt": "galaxy.datatypes.metacyto.mSummary",
+      "metacyto_stats.txt": "galaxy.datatypes.metacyto.mStats",
+      "deeptools_compute_matrix_archive": "galaxy.datatypes.registry.CompressedArchive",
+      "deeptools_coverage_matrix": "galaxy.datatypes.registry.CompressedArchive",
+      "netcdf": "galaxy.datatypes.binary.NetCDF",
+      "eps": "galaxy.datatypes.images.Eps",
+      "rast": "galaxy.datatypes.images.Rast",
+      "laj": "galaxy.datatypes.images.Laj",
+      "lav": "galaxy.datatypes.sequence.Lav",
+      "maf": "galaxy.datatypes.sequence.Maf",
+      "maf.gz": "galaxy.datatypes.registry.MafGz",
+      "maf.bz2": "galaxy.datatypes.registry.MafBz2",
+      "mafcustomtrack": "galaxy.datatypes.sequence.MafCustomTrack",
+      "mtx": "galaxy.datatypes.tabular.MatrixMarket",
+      "cmap": "galaxy.datatypes.tabular.CMAP",
+      "encodepeak": "galaxy.datatypes.interval.ENCODEPeak",
+      "4dn_pairs": "galaxy.datatypes.tabular.FourDNPairs",
+      "4dn_pairs.gz": "galaxy.datatypes.registry.FourDNPairsGz",
+      "4dn_pairsam": "galaxy.datatypes.tabular.FourDNPairsam",
+      "4dn_pairsam.gz": "galaxy.datatypes.registry.FourDNPairsamGz",
+      "pdf": "galaxy.datatypes.images.Pdf",
+      "pileup": "galaxy.datatypes.tabular.Pileup",
+      "psl": "galaxy.datatypes.tabular.Psl",
+      "obo": "galaxy.datatypes.text.Obo",
+      "owl": "galaxy.datatypes.xml.Owl",
+      "png": "galaxy.datatypes.images.Png",
+      "qual": "galaxy.datatypes.qualityscore.QualityScore",
+      "qualsolexa": "galaxy.datatypes.qualityscore.QualityScoreSolexa",
+      "qualillumina": "galaxy.datatypes.qualityscore.QualityScoreIllumina",
+      "qualsolid": "galaxy.datatypes.qualityscore.QualityScoreSOLiD",
+      "qual454": "galaxy.datatypes.qualityscore.QualityScore454",
+      "roadmaps": "galaxy.datatypes.assembly.Roadmaps",
+      "sam": "galaxy.datatypes.tabular.Sam",
+      "scf": "galaxy.datatypes.binary.Scf",
+      "sequences": "galaxy.datatypes.assembly.Sequences",
+      "snpeffdb": "galaxy.datatypes.text.SnpEffDb",
+      "snpsiftdbnsfp": "galaxy.datatypes.text.SnpSiftDbNSFP",
+      "dbnsfp.tabular": "galaxy.datatypes.registry.Tabular",
+      "sff": "galaxy.datatypes.binary.Sff",
+      "sra": "galaxy.datatypes.binary.Sra",
+      "sra_manifest.tabular": "galaxy.datatypes.tabular.SraManifest",
+      "svg": "galaxy.datatypes.registry.GenericXml",
+      "taxonomy": "galaxy.datatypes.tabular.Taxonomy",
+      "tabular": "galaxy.datatypes.tabular.Tabular",
+      "tabular.gz": "galaxy.datatypes.registry.TabularGz",
+      "twobit": "galaxy.datatypes.binary.TwoBit",
+      "sqmass": "galaxy.datatypes.binary.SQmass",
+      "gemini.sqlite": "galaxy.datatypes.binary.GeminiSQLite",
+      "chira.sqlite": "galaxy.datatypes.binary.ChiraSQLite",
+      "cuffdiff.sqlite": "galaxy.datatypes.binary.CuffDiffSQlite",
+      "gafa.sqlite": "galaxy.datatypes.binary.GAFASQLite",
+      "ncbitaxonomy.sqlite": "galaxy.datatypes.binary.NcbiTaxonomySQlite",
+      "txt": "galaxy.datatypes.data.Text",
+      "linecount": "galaxy.datatypes.data.LineCount",
+      "memepsp": "galaxy.datatypes.sequence.MemePsp",
+      "memexml": "galaxy.datatypes.xml.MEMEXml",
+      "cisml": "galaxy.datatypes.xml.CisML",
+      "tei": "galaxy.datatypes.xml.Tei",
+      "xml": "galaxy.datatypes.xml.GenericXml",
+      "xsd": "galaxy.datatypes.xml.GenericXml",
+      "dzi": "galaxy.datatypes.xml.Dzi",
+      "vcf": "galaxy.datatypes.tabular.Vcf",
+      "bcf": "galaxy.datatypes.binary.Bcf",
+      "bcf_bgzip": "galaxy.datatypes.registry.Bcf",
+      "bcf_uncompressed": "galaxy.datatypes.binary.BcfUncompressed",
+      "velvet": "galaxy.datatypes.assembly.Velvet",
+      "wig": "galaxy.datatypes.interval.Wiggle",
+      "interval_index": "galaxy.datatypes.registry.Binary",
+      "odgi": "galaxy.datatypes.registry.Binary",
+      "vg": "galaxy.datatypes.registry.CompressedArchive",
+      "vg.loci": "galaxy.datatypes.registry.Binary",
+      "vg.dist": "galaxy.datatypes.registry.Binary",
+      "vg.snarls": "galaxy.datatypes.registry.Binary",
+      "vg.gamp": "galaxy.datatypes.registry.Binary",
+      "vg.min": "galaxy.datatypes.registry.Binary",
+      "vg.zipcodes": "galaxy.datatypes.registry.Binary",
+      "vg.gg": "galaxy.datatypes.registry.Binary",
+      "gbz": "galaxy.datatypes.registry.Binary",
+      "gbwt": "galaxy.datatypes.registry.Binary",
+      "hal": "galaxy.datatypes.registry.Binary",
+      "hal.pg": "galaxy.datatypes.registry.Binary",
+      "hal.hg": "galaxy.datatypes.registry.Binary",
+      "xg": "galaxy.datatypes.registry.Binary",
+      "gam": "galaxy.datatypes.registry.Binary",
+      "protobuf2": "galaxy.datatypes.registry.Binary",
+      "protobuf3": "galaxy.datatypes.registry.Binary",
+      "onnx": "galaxy.datatypes.registry.Binary",
+      "tabix": "galaxy.datatypes.registry.Binary",
+      "interval_tabix.gz": "galaxy.datatypes.interval.IntervalTabix",
+      "juicer_medium_tabix.gz": "galaxy.datatypes.interval.JuicerMediumTabix",
+      "bed_tabix.gz": "galaxy.datatypes.interval.BedTabix",
+      "gff_tabix.gz": "galaxy.datatypes.interval.GffTabix",
+      "bgzip": "galaxy.datatypes.registry.CompressedArchive",
+      "gwas_bgzip": "galaxy.datatypes.registry.CompressedArchive",
+      "gwas_tabix.gz": "galaxy.datatypes.registry.CompressedArchive",
+      "vcf_bgzip": "galaxy.datatypes.tabular.VcfGz",
+      "bus": "galaxy.datatypes.registry.Binary",
+      "kallisto.idx": "galaxy.datatypes.registry.Binary",
+      "phyloxml": "galaxy.datatypes.xml.Phyloxml",
+      "newick": "galaxy.datatypes.data.Newick",
+      "nhx": "galaxy.datatypes.registry.Newick",
+      "nex": "galaxy.datatypes.data.Nexus",
+      "iqtree": "galaxy.datatypes.text.IQTree",
+      "beast.trees": "galaxy.datatypes.registry.Text",
+      "mldist": "galaxy.datatypes.mothur.SquareDistanceMatrix",
+      "affybatch": "galaxy.datatypes.genetics.Affybatch",
+      "eigenstratgeno": "galaxy.datatypes.genetics.Eigenstratgeno",
+      "eigenstratpca": "galaxy.datatypes.genetics.Eigenstratpca",
+      "eset": "galaxy.datatypes.genetics.Eset",
+      "fped": "galaxy.datatypes.genetics.Fped",
+      "fphe": "galaxy.datatypes.genetics.Fphe",
+      "gg": "galaxy.datatypes.genetics.GenomeGraphs",
+      "ldindep": "galaxy.datatypes.genetics.ldIndep",
+      "malist": "galaxy.datatypes.genetics.MAlist",
+      "lped": "galaxy.datatypes.genetics.Lped",
+      "pbed": "galaxy.datatypes.genetics.Pbed",
+      "pheno": "galaxy.datatypes.genetics.Pheno",
+      "pphe": "galaxy.datatypes.genetics.Pphe",
+      "rexpbase": "galaxy.datatypes.genetics.RexpBase",
+      "rgenetics": "galaxy.datatypes.genetics.Rgenetics",
+      "snptest": "galaxy.datatypes.genetics.Snptest",
+      "snpmatrix": "galaxy.datatypes.genetics.SNPMatrix",
+      "xls": "galaxy.datatypes.binary.ExcelXls",
+      "ipynb": "galaxy.datatypes.text.Ipynb",
+      "json": "galaxy.datatypes.text.Json",
+      "tool_markdown": "galaxy.datatypes.data.Text",
+      "expression.json": "galaxy.datatypes.text.ExpressionJson",
+      "xgmml": "galaxy.datatypes.graph.Xgmml",
+      "sif": "galaxy.datatypes.graph.Sif",
+      "triples": "galaxy.datatypes.triples.Triples",
+      "hdt": "galaxy.datatypes.triples.HDT",
+      "nt": "galaxy.datatypes.triples.NTriples",
+      "n3": "galaxy.datatypes.triples.N3",
+      "ttl": "galaxy.datatypes.triples.Turtle",
+      "rdf": "galaxy.datatypes.triples.Rdf",
+      "jsonld": "galaxy.datatypes.triples.Jsonld",
+      "sbol": "galaxy.datatypes.triples.Sbol",
+      "excel.xls": "galaxy.datatypes.binary.ExcelXls",
+      "xlsx": "galaxy.datatypes.binary.Xlsx",
+      "docx": "galaxy.datatypes.binary.Docx",
+      "pptx": "galaxy.datatypes.binary.Pptx",
+      "btwisted": "galaxy.datatypes.registry.Text",
+      "cai": "galaxy.datatypes.registry.Text",
+      "cat_db": "galaxy.datatypes.registry.Text",
+      "charge": "galaxy.datatypes.registry.Text",
+      "checktrans": "galaxy.datatypes.registry.Text",
+      "chips": "galaxy.datatypes.registry.Text",
+      "codcmp": "galaxy.datatypes.registry.Text",
+      "coderet": "galaxy.datatypes.registry.Text",
+      "compseq": "galaxy.datatypes.registry.Text",
+      "cpgplot": "galaxy.datatypes.registry.Text",
+      "cpgreport": "galaxy.datatypes.registry.Text",
+      "cusp": "galaxy.datatypes.registry.Text",
+      "cut": "galaxy.datatypes.registry.Text",
+      "dan": "galaxy.datatypes.registry.Text",
+      "digest": "galaxy.datatypes.registry.Text",
+      "dreg": "galaxy.datatypes.registry.Text",
+      "einverted": "galaxy.datatypes.registry.Text",
+      "epestfind": "galaxy.datatypes.registry.Text",
+      "equicktandem": "galaxy.datatypes.registry.Text",
+      "est2genome": "galaxy.datatypes.registry.Text",
+      "etandem": "galaxy.datatypes.registry.Text",
+      "freak": "galaxy.datatypes.registry.Text",
+      "fuzznuc": "galaxy.datatypes.registry.Text",
+      "fuzzpro": "galaxy.datatypes.registry.Text",
+      "fuzztran": "galaxy.datatypes.registry.Text",
+      "gaf": "galaxy.datatypes.registry.Text",
+      "garnier": "galaxy.datatypes.registry.Text",
+      "geecee": "galaxy.datatypes.registry.Text",
+      "helixturnhelix": "galaxy.datatypes.registry.Text",
+      "hmoment": "galaxy.datatypes.registry.Text",
+      "isochore": "galaxy.datatypes.registry.Text",
+      "match": "galaxy.datatypes.registry.Text",
+      "nametable": "galaxy.datatypes.registry.Text",
+      "needle": "galaxy.datatypes.registry.Text",
+      "newcpgreport": "galaxy.datatypes.registry.Text",
+      "newcpgseek": "galaxy.datatypes.registry.Text",
+      "noreturn": "galaxy.datatypes.registry.Text",
+      "palindrome": "galaxy.datatypes.registry.Text",
+      "pepcoil": "galaxy.datatypes.registry.Text",
+      "pepinfo": "galaxy.datatypes.registry.Text",
+      "pepstats": "galaxy.datatypes.registry.Text",
+      "polydot": "galaxy.datatypes.registry.Text",
+      "preg": "galaxy.datatypes.registry.Text",
+      "prettyseq": "galaxy.datatypes.registry.Text",
+      "primersearch": "galaxy.datatypes.registry.Text",
+      "showfeat": "galaxy.datatypes.registry.Text",
+      "showorf": "galaxy.datatypes.registry.Text",
+      "sixpack": "galaxy.datatypes.registry.Text",
+      "strider": "galaxy.datatypes.registry.Text",
+      "supermatcher": "galaxy.datatypes.registry.Text",
+      "syco": "galaxy.datatypes.registry.Text",
+      "textsearch": "galaxy.datatypes.registry.Text",
+      "vectorstrip": "galaxy.datatypes.registry.Text",
+      "wobble": "galaxy.datatypes.registry.Text",
+      "wordcount": "galaxy.datatypes.registry.Text",
+      "dbmotif": "galaxy.datatypes.registry.Text",
+      "diffseq": "galaxy.datatypes.registry.Text",
+      "excel": "galaxy.datatypes.registry.Text",
+      "feattable": "galaxy.datatypes.registry.Text",
+      "motif": "galaxy.datatypes.registry.Text",
+      "regions": "galaxy.datatypes.registry.Text",
+      "seqtable": "galaxy.datatypes.registry.Text",
+      "simple": "galaxy.datatypes.registry.Text",
+      "table": "galaxy.datatypes.registry.Text",
+      "tagseq": "galaxy.datatypes.registry.Text",
+      "acedb": "galaxy.datatypes.registry.Text",
+      "clustal": "galaxy.datatypes.registry.Text",
+      "codata": "galaxy.datatypes.registry.Text",
+      "embl": "galaxy.datatypes.registry.Text",
+      "fitch": "galaxy.datatypes.registry.Text",
+      "gcg": "galaxy.datatypes.registry.Text",
+      "genbank": "galaxy.datatypes.sequence.Genbank",
+      "genbank.gz": "galaxy.datatypes.registry.GenbankGz",
+      "hennig86": "galaxy.datatypes.registry.Text",
+      "ig": "galaxy.datatypes.registry.Text",
+      "jackknifer": "galaxy.datatypes.registry.Text",
+      "jackknifernon": "galaxy.datatypes.registry.Text",
+      "mega": "galaxy.datatypes.registry.Text",
+      "meganon": "galaxy.datatypes.registry.Text",
+      "ncbi": "galaxy.datatypes.registry.Text",
+      "nexus": "galaxy.datatypes.registry.Text",
+      "nexusnon": "galaxy.datatypes.registry.Text",
+      "phylip": "galaxy.datatypes.phylip.Phylip",
+      "phylipnon": "galaxy.datatypes.registry.Text",
+      "pir": "galaxy.datatypes.registry.Text",
+      "staden": "galaxy.datatypes.registry.Text",
+      "swiss": "galaxy.datatypes.registry.Text",
+      "msf": "galaxy.datatypes.msa.Msf",
+      "markx0": "galaxy.datatypes.registry.Text",
+      "markx1": "galaxy.datatypes.registry.Text",
+      "markx10": "galaxy.datatypes.registry.Text",
+      "markx2": "galaxy.datatypes.registry.Text",
+      "markx3": "galaxy.datatypes.registry.Text",
+      "pair": "galaxy.datatypes.registry.Text",
+      "score": "galaxy.datatypes.registry.Text",
+      "srs": "galaxy.datatypes.registry.Text",
+      "srspair": "galaxy.datatypes.registry.Text",
+      "snaphmm": "galaxy.datatypes.annotation.SnapHmm",
+      "augustus": "galaxy.datatypes.annotation.Augustus",
+      "icm": "galaxy.datatypes.binary.ICM",
+      "cm": "galaxy.datatypes.msa.InfernalCM",
+      "hmm2": "galaxy.datatypes.msa.Hmmer2",
+      "hmm3": "galaxy.datatypes.msa.Hmmer3",
+      "stockholm": "galaxy.datatypes.msa.Stockholm_1_0",
+      "xmfa": "galaxy.datatypes.msa.MauveXmfa",
+      "cel": "galaxy.datatypes.binary.Cel",
+      "gpr": "galaxy.datatypes.microarrays.Gpr",
+      "gal": "galaxy.datatypes.microarrays.Gal",
+      "rds": "galaxy.datatypes.binary.RDS",
+      "phyloseq": "galaxy.datatypes.registry.RDS",
+      "rdata": "galaxy.datatypes.binary.RData",
+      "rdata.sce": "galaxy.datatypes.registry.RData",
+      "rdata.xcms.raw": "galaxy.datatypes.registry.RData",
+      "rdata.msnbase.raw": "galaxy.datatypes.registry.RData",
+      "rdata.xcms.findchrompeaks": "galaxy.datatypes.registry.RData",
+      "rdata.xcms.group": "galaxy.datatypes.registry.RData",
+      "rdata.xcms.retcor": "galaxy.datatypes.registry.RData",
+      "rdata.xcms.fillpeaks": "galaxy.datatypes.registry.RData",
+      "rdata.camera.positive": "galaxy.datatypes.registry.RData",
+      "rdata.camera.negative": "galaxy.datatypes.registry.RData",
+      "rdata.camera.quick": "galaxy.datatypes.registry.RData",
+      "rdata.se": "galaxy.datatypes.hdf5.HDF5SummarizedExperiment",
+      "rdock_as": "galaxy.datatypes.registry.Binary",
+      "rrd": "galaxy.datatypes.registry.Binary",
+      "prm": "galaxy.datatypes.text.Prm",
+      "oxlicg": "galaxy.datatypes.binary.OxliCountGraph",
+      "oxling": "galaxy.datatypes.binary.OxliNodeGraph",
+      "oxlits": "galaxy.datatypes.binary.OxliTagSet",
+      "oxlist": "galaxy.datatypes.binary.OxliStopTags",
+      "oxliss": "galaxy.datatypes.binary.OxliSubset",
+      "oxligl": "galaxy.datatypes.binary.OxliGraphLabels",
+      "stl": "galaxy.datatypes.binary.Binary",
+      "plyascii": "galaxy.datatypes.constructive_solid_geometry.PlyAscii",
+      "plybinary": "galaxy.datatypes.constructive_solid_geometry.PlyBinary",
+      "vtkascii": "galaxy.datatypes.constructive_solid_geometry.VtkAscii",
+      "vtkbinary": "galaxy.datatypes.constructive_solid_geometry.VtkBinary",
+      "vtpascii": "galaxy.datatypes.constructive_solid_geometry.VtpAscii",
+      "vtpbinary": "galaxy.datatypes.constructive_solid_geometry.VtpBinary",
+      "biom1": "galaxy.datatypes.text.Biom1",
+      "biom2": "galaxy.datatypes.binary.Biom2",
+      "msh": "galaxy.datatypes.binary.MashSketch",
+      "sourmash.sig": "galaxy.datatypes.text.SourmashSignature",
+      "scidx": "galaxy.datatypes.interval.ScIdx",
+      "smi": "galaxy.datatypes.molecules.SMILES",
+      "sdf": "galaxy.datatypes.molecules.SDF",
+      "inchi": "galaxy.datatypes.molecules.InChI",
+      "mol": "galaxy.datatypes.molecules.MOL",
+      "mol2": "galaxy.datatypes.molecules.MOL2",
+      "cml": "galaxy.datatypes.molecules.CML",
+      "fps": "galaxy.datatypes.molecules.FPS",
+      "obfs": "galaxy.datatypes.molecules.OBFS",
+      "drf": "galaxy.datatypes.molecules.DRF",
+      "phar": "galaxy.datatypes.molecules.PHAR",
+      "pdb": "galaxy.datatypes.molecules.PDB",
+      "pdbqt": "galaxy.datatypes.molecules.PDBQT",
+      "pqr": "galaxy.datatypes.molecules.PQR",
+      "cell": "galaxy.datatypes.molecules.Cell",
+      "cif": "galaxy.datatypes.molecules.CIF",
+      "xyz": "galaxy.datatypes.molecules.XYZ",
+      "extxyz": "galaxy.datatypes.molecules.ExtendedXYZ",
+      "magres": "galaxy.datatypes.molecules.Magres",
+      "trr": "galaxy.datatypes.binary.Trr",
+      "dcd": "galaxy.datatypes.binary.Dcd",
+      "top": "galaxy.datatypes.registry.Text",
+      "prmtop": "galaxy.datatypes.registry.Text",
+      "itp": "galaxy.datatypes.registry.Text",
+      "mdp": "galaxy.datatypes.registry.Text",
+      "ndx": "galaxy.datatypes.registry.Text",
+      "xvg": "galaxy.datatypes.registry.Text",
+      "xtc": "galaxy.datatypes.binary.Xtc",
+      "cpt": "galaxy.datatypes.binary.Cpt",
+      "edr": "galaxy.datatypes.binary.Edr",
+      "tpr": "galaxy.datatypes.binary.Binary",
+      "gro": "galaxy.datatypes.molecules.GRO",
+      "inpcrd": "galaxy.datatypes.registry.Text",
+      "vel": "galaxy.datatypes.binary.Vel",
+      "grd": "galaxy.datatypes.molecules.grd",
+      "grd.tgz": "galaxy.datatypes.molecules.grdtgz",
+      "mothur.otu": "galaxy.datatypes.mothur.Otu",
+      "mothur.list": "galaxy.datatypes.registry.Otu",
+      "mothur.sabund": "galaxy.datatypes.mothur.Sabund",
+      "mothur.rabund": "galaxy.datatypes.registry.Sabund",
+      "mothur.shared": "galaxy.datatypes.mothur.GroupAbund",
+      "mothur.relabund": "galaxy.datatypes.registry.GroupAbund",
+      "mothur.names": "galaxy.datatypes.mothur.Names",
+      "mothur.design": "galaxy.datatypes.registry.Group",
+      "mothur.summary": "galaxy.datatypes.mothur.Summary",
+      "mothur.groups": "galaxy.datatypes.mothur.Group",
+      "mothur.oligos": "galaxy.datatypes.mothur.Oligos",
+      "mothur.align": "galaxy.datatypes.registry.Fasta",
+      "mothur.accnos": "galaxy.datatypes.mothur.AccNos",
+      "mothur.otulabels": "galaxy.datatypes.mothur.AccNos",
+      "mothur.otu.corr": "galaxy.datatypes.registry.Tabular",
+      "mothur.map": "galaxy.datatypes.mothur.SecondaryStructureMap",
+      "mothur.align.check": "galaxy.datatypes.mothur.AlignCheck",
+      "mothur.align.report": "galaxy.datatypes.mothur.AlignReport",
+      "mothur.filter": "galaxy.datatypes.mothur.LaneMask",
+      "mothur.dist": "galaxy.datatypes.mothur.DistanceMatrix",
+      "mothur.tre": "galaxy.datatypes.registry.Text",
+      "mothur.pair.dist": "galaxy.datatypes.mothur.PairwiseDistanceMatrix",
+      "mothur.square.dist": "galaxy.datatypes.mothur.SquareDistanceMatrix",
+      "mothur.lower.dist": "galaxy.datatypes.mothur.LowerTriangleDistanceMatrix",
+      "mothur.ref.taxonomy": "galaxy.datatypes.mothur.RefTaxonomy",
+      "mothur.seq.taxonomy": "galaxy.datatypes.registry.RefTaxonomy",
+      "mothur.rdp.taxonomy": "galaxy.datatypes.registry.RefTaxonomy",
+      "mothur.cons.taxonomy": "galaxy.datatypes.mothur.ConsensusTaxonomy",
+      "mothur.tax.summary": "galaxy.datatypes.mothur.TaxonomySummary",
+      "mothur.freq": "galaxy.datatypes.mothur.Frequency",
+      "mothur.quan": "galaxy.datatypes.mothur.Quantile",
+      "mothur.filtered.quan": "galaxy.datatypes.registry.Quantile",
+      "mothur.masked.quan": "galaxy.datatypes.registry.Quantile",
+      "mothur.filtered.masked.quan": "galaxy.datatypes.registry.Quantile",
+      "mothur.axes": "galaxy.datatypes.mothur.Axes",
+      "mothur.sff.flow": "galaxy.datatypes.mothur.SffFlow",
+      "mothur.count_table": "galaxy.datatypes.mothur.CountTable",
+      "neostore": "galaxy.datatypes.neo4j.Neo4jDB",
+      "neostore.zip": "galaxy.datatypes.neo4j.Neo4jDBzip",
+      "trackhub": "galaxy.datatypes.tracks.UCSCTrackHub",
+      "blastxml": "galaxy.datatypes.blast.BlastXml",
+      "blastdbn": "galaxy.datatypes.blast.BlastNucDb",
+      "blastdbp": "galaxy.datatypes.blast.BlastProtDb",
+      "blastdbd": "galaxy.datatypes.blast.BlastDomainDb",
+      "lastdb": "galaxy.datatypes.blast.LastDb",
+      "blastdbn5": "galaxy.datatypes.blast.BlastNucDb5",
+      "blastdbp5": "galaxy.datatypes.blast.BlastProtDb5",
+      "blastdbd5": "galaxy.datatypes.blast.BlastDomainDb5",
+      "maskinfo-asn1": "galaxy.datatypes.registry.GenericAsn1",
+      "maskinfo-asn1-binary": "galaxy.datatypes.registry.GenericAsn1Binary",
+      "pssm-asn1": "galaxy.datatypes.registry.GenericAsn1",
+      "ptkscmp": "galaxy.datatypes.plant_tribes.PlantTribesKsComponents",
+      "smat": "galaxy.datatypes.plant_tribes.Smat",
+      "alohomora_gts": "galaxy.datatypes.genetics.GenotypeMatrix",
+      "alohomora_map": "galaxy.datatypes.registry.Tabular",
+      "alohomora_maf": "galaxy.datatypes.registry.Tabular",
+      "alohomora_ped": "galaxy.datatypes.registry.Tabular",
+      "linkage_pedin": "galaxy.datatypes.registry.Tabular",
+      "linkage_datain": "galaxy.datatypes.genetics.DataIn",
+      "linkage_map": "galaxy.datatypes.genetics.MarkerMap",
+      "allegro_ihaplo": "galaxy.datatypes.tabular.Tabular",
+      "allegro_descent": "galaxy.datatypes.tabular.Tabular",
+      "allegro_fparam": "galaxy.datatypes.genetics.AllegroLOD",
+      "ideaspre": "galaxy.datatypes.genetics.IdeasPre",
+      "sbml": "galaxy.datatypes.xml.Sbml",
+      "spalndbnp": "galaxy.datatypes.spaln.SpalnNuclDb",
+      "spalndba": "galaxy.datatypes.spaln.SpalnProtDb",
+      "dada2_dada": "galaxy.datatypes.registry.RDS",
+      "dada2_errorrates": "galaxy.datatypes.registry.RDS",
+      "dada2_mergepairs": "galaxy.datatypes.registry.RDS",
+      "dada2_sequencetable": "galaxy.datatypes.registry.Tabular",
+      "dada2_uniques": "galaxy.datatypes.registry.Tabular",
+      "ampvis2": "galaxy.datatypes.registry.RDS",
+      "ckpt": "galaxy.datatypes.registry.Binary",
+      "tgz": "galaxy.datatypes.registry.Binary",
+      "wav": "galaxy.datatypes.media.Wav",
+      "mp3": "galaxy.datatypes.media.Mp3",
+      "ogg": "galaxy.datatypes.media.Ogg",
+      "wma": "galaxy.datatypes.media.Wma",
+      "mkv": "galaxy.datatypes.media.Mkv",
+      "mp4": "galaxy.datatypes.media.Mp4",
+      "m4a": "galaxy.datatypes.media.M4a",
+      "flv": "galaxy.datatypes.media.Flv",
+      "flac": "galaxy.datatypes.media.Flac",
+      "webm": "galaxy.datatypes.media.Webm",
+      "mpg": "galaxy.datatypes.media.Mpg",
+      "mov": "galaxy.datatypes.media.Mov",
+      "avi": "galaxy.datatypes.media.Avi",
+      "wmv": "galaxy.datatypes.media.Wmv",
+      "textgrid": "galaxy.datatypes.speech.TextGrid",
+      "par": "galaxy.datatypes.speech.BPF",
+      "ffindex": "galaxy.datatypes.registry.Tabular",
+      "ffdata": "galaxy.datatypes.registry.Data",
+      "pretext": "galaxy.datatypes.binary.Pretext",
+      "immuneml_receptors.html": "galaxy.datatypes.registry.Html",
+      "hexrd.materials.h5": "galaxy.datatypes.binary.HexrdMaterials",
+      "npz": "galaxy.datatypes.binary.Npz",
+      "hexrd.images.npz": "galaxy.datatypes.binary.HexrdImagesNpz",
+      "hexrd.eta_ome.npz": "galaxy.datatypes.binary.HexrdEtaOmeNpz",
+      "hexrd.scored_orientations.npz": "galaxy.datatypes.registry.Npz",
+      "hexrd.accepted_orientations": "galaxy.datatypes.registry.Tabular",
+      "hexrd.yml": "galaxy.datatypes.registry.Yaml",
+      "neper.tess": "galaxy.datatypes.constructive_solid_geometry.NeperTess",
+      "neper.tesr": "galaxy.datatypes.constructive_solid_geometry.NeperTesr",
+      "neper.points": "galaxy.datatypes.constructive_solid_geometry.NeperPoints",
+      "neper.points.tsv": "galaxy.datatypes.constructive_solid_geometry.NeperPointsTabular",
+      "neper.mscell": "galaxy.datatypes.constructive_solid_geometry.NeperMultiScaleCell",
+      "gmsh.msh": "galaxy.datatypes.constructive_solid_geometry.GmshMsh",
+      "gmsh.geo": "galaxy.datatypes.constructive_solid_geometry.GmshGeo",
+      "zset.geof": "galaxy.datatypes.constructive_solid_geometry.ZsetGeof",
+      "vtkxml": "galaxy.datatypes.constructive_solid_geometry.VtkXml",
+      "gocad.sg": "galaxy.datatypes.constructive_solid_geometry.GocadSGrid",
+      "feflow.fem": "galaxy.datatypes.constructive_solid_geometry.FeflowFem",
+      "raster.asc": "galaxy.datatypes.constructive_solid_geometry.AsciiRaster",
+      "pov": "galaxy.datatypes.registry.Text",
+      "pithya.result": "galaxy.datatypes.text.PithyaResult",
+      "pithya.property": "galaxy.datatypes.text.PithyaProperty",
+      "pithya.model": "galaxy.datatypes.text.PithyaModel",
+      "bcsl.ts": "galaxy.datatypes.text.BCSLts",
+      "bcsl.model": "galaxy.datatypes.text.BCSLmodel",
+      "storm.sample": "galaxy.datatypes.text.StormSample",
+      "storm.check": "galaxy.datatypes.text.StormCheck",
+      "ctl.result": "galaxy.datatypes.text.CTLresult",
+      "castep": "galaxy.datatypes.text.Castep",
+      "param": "galaxy.datatypes.text.Param",
+      "den_fmt": "galaxy.datatypes.text.FormattedDensity",
+      "prj": "galaxy.datatypes.larch.AthenaProject",
+      "inp": "galaxy.datatypes.larch.FEFFInput",
+      "sp": "galaxy.datatypes.registry.CSV",
+      "gds": "galaxy.datatypes.registry.CSV",
+      "feff": "galaxy.datatypes.registry.CSV",
+      "feffit": "galaxy.datatypes.registry.Text",
+      "bil": "galaxy.datatypes.registry.Binary",
+      "hdr": "galaxy.datatypes.registry.Text",
+      "shp": "galaxy.datatypes.gis.Shapefile",
+      "fits": "galaxy.datatypes.binary.FITS",
+      "chain": "galaxy.datatypes.chain.Chain",
+      "ucsc.net": "galaxy.datatypes.chain.Net",
+      "bcsp": "galaxy.datatypes.registry.Binary",
+      "rd": "galaxy.datatypes.registry.Binary",
+      "safetensors": "galaxy.datatypes.binary.Safetensors",
+      "mlmodel": "galaxy.datatypes.binary.Binary",
+      "deacon.idx": "galaxy.datatypes.registry.Binary",
+      "tfevents": "galaxy.datatypes.binary.TensorBoardEvents",
+      "rmsx.json": "galaxy.datatypes.registry.Json"
+    },
+    "class_to_classes": {
+      "galaxy.datatypes.registry.Text": {
+        "galaxy.datatypes.registry.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Binary": {
+        "galaxy.datatypes.registry.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.JP2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.JP2": true
+      },
+      "galaxy.datatypes.binary.Ab1": {
+        "galaxy.datatypes.binary.Ab1": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.registry.Fasta": {
+        "galaxy.datatypes.sequence.Fasta": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.Fasta": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.assembly.Amos": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.assembly.Amos": true
+      },
+      "galaxy.datatypes.goldenpath.GoldenPath": {
+        "galaxy.datatypes.goldenpath.GoldenPath": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.Alto": {
+        "galaxy.datatypes.xml.Alto": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.PageXml": {
+        "galaxy.datatypes.xml.PageXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.AbbyyXml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.xml.AbbyyXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Hocr": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.text.Hocr": true
+      },
+      "galaxy.datatypes.registry.AnvioComposite": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.registry.AnvioComposite": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioComposite": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Data": {
+        "galaxy.datatypes.registry.Data": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.anvio.AnvioContigsDB": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioContigsDB": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioDB": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioGenomesDB": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioGenomesDB": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioPanDB": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.anvio.AnvioPanDB": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioProfileDB": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.anvio.AnvioProfileDB": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioSamplesDB": {
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.anvio.AnvioSamplesDB": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Json": {
+        "galaxy.datatypes.registry.Json": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.anvio.AnvioStructureDB": {
+        "galaxy.datatypes.anvio.AnvioStructureDB": true,
+        "galaxy.datatypes.anvio.AnvioComposite": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.anvio.AnvioDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.TSV": {
+        "galaxy.datatypes.tabular.TSV": true,
+        "galaxy.datatypes.tabular.BaseCSV": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.registry.TSV": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Arff": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Arff": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Paf": {
+        "galaxy.datatypes.text.Paf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.PafGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.registry.PafGz": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.text.Paf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Taf": {
+        "galaxy.datatypes.text.Taf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.TafGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.TafGz": true,
+        "galaxy.datatypes.text.Taf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Gfa1": {
+        "galaxy.datatypes.text.Gfa1": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Gfa1Gz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.Gfa1Gz": true,
+        "galaxy.datatypes.text.Gfa1": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Gfa2": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.Gfa2": true
+      },
+      "galaxy.datatypes.registry.Gfa2Gz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Gfa2": true,
+        "galaxy.datatypes.registry.Gfa2Gz": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.data.GenericAsn1": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.GenericAsn1": true
+      },
+      "galaxy.datatypes.binary.GenericAsn1Binary": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GenericAsn1Binary": true
+      },
+      "galaxy.datatypes.sequence.Axt": {
+        "galaxy.datatypes.sequence.Axt": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.AxtGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.Axt": true,
+        "galaxy.datatypes.registry.AxtGz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.AxtBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.registry.AxtBz2": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.Axt": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.FeatureLocationIndex": {
+        "galaxy.datatypes.tabular.FeatureLocationIndex": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.Bam": {
+        "galaxy.datatypes.binary.BamNative": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Bam": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.BamInputSorted": {
+        "galaxy.datatypes.binary.BamNative": true,
+        "galaxy.datatypes.binary.BamInputSorted": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.BamQuerynameSorted": {
+        "galaxy.datatypes.binary.BamNative": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.BamInputSorted": true,
+        "galaxy.datatypes.binary.BamQuerynameSorted": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.BamNative": {
+        "galaxy.datatypes.binary.BamNative": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.ProBam": {
+        "galaxy.datatypes.binary.BamNative": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.ProBam": true,
+        "galaxy.datatypes.binary.Bam": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.CRAM": {
+        "galaxy.datatypes.binary.CRAM": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.interval.Bed": {
+        "galaxy.datatypes.interval.Bed": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.BedGraph": {
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.interval.BedGraph": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.BedStrict": {
+        "galaxy.datatypes.interval.BedStrict": true,
+        "galaxy.datatypes.interval.Bed": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.Bed6": {
+        "galaxy.datatypes.interval.BedStrict": true,
+        "galaxy.datatypes.interval.Bed6": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.interval.Bed": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.Bed12": {
+        "galaxy.datatypes.interval.BedStrict": true,
+        "galaxy.datatypes.interval.Bed12": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.interval.Bed": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.ProBed": {
+        "galaxy.datatypes.interval.Bed": true,
+        "galaxy.datatypes.interval.ProBed": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.chrominfo.ChromInfo": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.chrominfo.ChromInfo": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.DAA": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.DAA": true
+      },
+      "galaxy.datatypes.binary.RMA6": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.RMA6": true
+      },
+      "galaxy.datatypes.binary.DMND": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.DMND": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Parquet": {
+        "galaxy.datatypes.binary.Parquet": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.Idat": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Idat": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.BigBed": {
+        "galaxy.datatypes.binary.BigWig": true,
+        "galaxy.datatypes.binary.BigBed": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.BigWig": {
+        "galaxy.datatypes.binary.BigWig": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.interval.ChromatinInteractions": {
+        "galaxy.datatypes.interval.ChromatinInteractions": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.CSV": {
+        "galaxy.datatypes.tabular.CSV": true,
+        "galaxy.datatypes.tabular.BaseCSV": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.GeoCSV": {
+        "galaxy.datatypes.tabular.CSV": true,
+        "galaxy.datatypes.tabular.BaseCSV": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.tabular.GeoCSV": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.TSV": {
+        "galaxy.datatypes.tabular.TSV": true,
+        "galaxy.datatypes.tabular.BaseCSV": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.CustomTrack": {
+        "galaxy.datatypes.interval.CustomTrack": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.ngsindex.BowtieColorIndex": {
+        "galaxy.datatypes.ngsindex.BowtieColorIndex": true,
+        "galaxy.datatypes.ngsindex.BowtieIndex": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.ngsindex.BowtieBaseIndex": {
+        "galaxy.datatypes.ngsindex.BowtieBaseIndex": true,
+        "galaxy.datatypes.ngsindex.BowtieIndex": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.csFasta": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.csFasta": true,
+        "galaxy.datatypes.sequence.Sequence": true
+      },
+      "galaxy.datatypes.data.Data": {
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Binary": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.text.CytoscapeJson": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.CytoscapeJson": true,
+        "galaxy.datatypes.text.Json": true
+      },
+      "galaxy.datatypes.text.ImgtJson": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.text.ImgtJson": true
+      },
+      "galaxy.datatypes.text.GeoJson": {
+        "galaxy.datatypes.text.GeoJson": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.VitessceJson": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.VitessceJson": true,
+        "galaxy.datatypes.text.Json": true
+      },
+      "galaxy.datatypes.text.AuspiceJson": {
+        "galaxy.datatypes.text.AuspiceJson": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.DataManagerJson": {
+        "galaxy.datatypes.text.DataManagerJson": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.registry.DataManagerJson": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.DotBracket": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.sequence.DotBracket": true
+      },
+      "galaxy.datatypes.registry.Tabular": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.registry.Tabular": true
+      },
+      "galaxy.datatypes.sequence.Fasta": {
+        "galaxy.datatypes.sequence.Fasta": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.sequence.Sequence": true
+      },
+      "galaxy.datatypes.registry.FastaGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fasta": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.registry.FastaGz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastaBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fasta": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.FastaBz2": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.Fastg": {
+        "galaxy.datatypes.sequence.Fastg": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.Sequence": true
+      },
+      "galaxy.datatypes.sequence.Fastq": {
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.FastqGz": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.FastqBz2": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.FastqSanger": {
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.FastqSanger": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqSangerGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.FastqSangerGz": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.FastqSanger": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqSangerBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.FastqSanger": true,
+        "galaxy.datatypes.registry.FastqSangerBz2": true
+      },
+      "galaxy.datatypes.sequence.FastqSolexa": {
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.sequence.FastqSolexa": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqSolexaGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.registry.FastqSolexaGz": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.sequence.FastqSolexa": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqSolexaBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.registry.FastqSolexaBz2": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.FastqSolexa": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.FastqCSSanger": {
+        "galaxy.datatypes.sequence.FastqCSSanger": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqCSSangerGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.FastqCSSanger": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.registry.FastqCSSangerGz": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqCSSangerBz2": {
+        "galaxy.datatypes.registry.FastqCSSangerBz2": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.sequence.FastqCSSanger": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.FastqIllumina": {
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.sequence.FastqIllumina": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqIlluminaGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.FastqIlluminaGz": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.sequence.FastqIllumina": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FastqIlluminaBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Fastq": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.BaseFastq": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.sequence.FastqIllumina": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.FastqIlluminaBz2": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.SequenceSplitLocations": {
+        "galaxy.datatypes.sequence.SequenceSplitLocations": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.Eland": {
+        "galaxy.datatypes.tabular.Eland": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.ElandMulti": {
+        "galaxy.datatypes.tabular.ElandMulti": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tracks.GeneTrack": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.tracks.GeneTrack": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.interval.Gff": {
+        "galaxy.datatypes.interval.Gff": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.Gff3": {
+        "galaxy.datatypes.interval.Gff": true,
+        "galaxy.datatypes.interval.Gff3": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Gff3Gz": {
+        "galaxy.datatypes.registry.Gff3Gz": true,
+        "galaxy.datatypes.interval.Gff": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.interval.Gff3": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Gff3Bz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.interval.Gff": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.interval.Gff3": true,
+        "galaxy.datatypes.registry.Gff3Bz2": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.images.Gif": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Gif": true
+      },
+      "galaxy.datatypes.images.Gmaj": {
+        "galaxy.datatypes.images.Gmaj": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.interval.Gtf": {
+        "galaxy.datatypes.interval.Gff": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.interval.Gtf": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.GtfGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.interval.Gff": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.GtfGz": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.interval.Gtf": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.H5": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true
+      },
+      "galaxy.datatypes.registry.H5": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true,
+        "galaxy.datatypes.registry.H5": true
+      },
+      "galaxy.datatypes.binary.Grib": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Grib": true
+      },
+      "galaxy.datatypes.binary.Loom": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true,
+        "galaxy.datatypes.binary.Loom": true
+      },
+      "galaxy.datatypes.binary.Anndata": {
+        "galaxy.datatypes.binary.Anndata": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.registry.Visium": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.registry.Visium": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Visium": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Hic": {
+        "galaxy.datatypes.binary.Hic": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.Cool": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Cool": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true
+      },
+      "galaxy.datatypes.binary.MCool": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.H5": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.MCool": true
+      },
+      "galaxy.datatypes.binary.H5MLM": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.H5MLM": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true
+      },
+      "galaxy.datatypes.binary.LudwigModel": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.binary.LudwigModel": true
+      },
+      "galaxy.datatypes.text.Html": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Html": {
+        "galaxy.datatypes.registry.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.Interval": {
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.CompressedArchive": {
+        "galaxy.datatypes.registry.CompressedArchive": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.Numpy": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Numpy": true
+      },
+      "galaxy.datatypes.isa.IsaTab": {
+        "galaxy.datatypes.isa._Isa": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.isa.IsaTab": true
+      },
+      "galaxy.datatypes.isa.IsaJson": {
+        "galaxy.datatypes.isa.IsaJson": true,
+        "galaxy.datatypes.isa._Isa": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Jpg": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Jpg": true
+      },
+      "galaxy.datatypes.images.Tiff": {
+        "galaxy.datatypes.images.Tiff": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.Tiff": {
+        "galaxy.datatypes.images.Tiff": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.Tiff": true
+      },
+      "galaxy.datatypes.images.OMETiff": {
+        "galaxy.datatypes.images.OMETiff": true,
+        "galaxy.datatypes.images.Tiff": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.Dicom": {
+        "galaxy.datatypes.images.Dicom": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.Dicom": true
+      },
+      "galaxy.datatypes.images.Hamamatsu": {
+        "galaxy.datatypes.images.Hamamatsu": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.Hamamatsu": {
+        "galaxy.datatypes.images.Hamamatsu": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.registry.Hamamatsu": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Mirax": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Mirax": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Sakura": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Sakura": true
+      },
+      "galaxy.datatypes.images.Bmp": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Bmp": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Im": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Im": true
+      },
+      "galaxy.datatypes.images.Pcd": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Pcd": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Pcx": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Pcx": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Ppm": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Ppm": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Psd": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Psd": true
+      },
+      "galaxy.datatypes.images.Xbm": {
+        "galaxy.datatypes.images.Xbm": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Xpm": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Xpm": true
+      },
+      "galaxy.datatypes.images.Rgb": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Rgb": true
+      },
+      "galaxy.datatypes.images.Pbm": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Pbm": true
+      },
+      "galaxy.datatypes.images.Pgm": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Pgm": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Nrrd": {
+        "galaxy.datatypes.images.Nrrd": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.Nrrd": {
+        "galaxy.datatypes.registry.Nrrd": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Nrrd": true
+      },
+      "galaxy.datatypes.sequence.RNADotPlotMatrix": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.RNADotPlotMatrix": true
+      },
+      "galaxy.datatypes.qiime2.QIIME2Artifact": {
+        "galaxy.datatypes.qiime2.QIIME2Artifact": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.qiime2._QIIME2ResultBase": true
+      },
+      "galaxy.datatypes.qiime2.QIIME2Visualization": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true,
+        "galaxy.datatypes.qiime2.QIIME2Visualization": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.qiime2._QIIME2ResultBase": true
+      },
+      "galaxy.datatypes.qiime2.QIIME2Metadata": {
+        "galaxy.datatypes.qiime2.QIIME2Metadata": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.CompressedZipArchive": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true
+      },
+      "galaxy.datatypes.registry.CompressedZipArchive": {
+        "galaxy.datatypes.registry.CompressedZipArchive": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.CompressedZarrZipArchive": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true,
+        "galaxy.datatypes.binary.CompressedZarrZipArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.CompressedOMEZarrZipArchive": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true,
+        "galaxy.datatypes.binary.CompressedZarrZipArchive": true,
+        "galaxy.datatypes.binary.CompressedOMEZarrZipArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.SpatialData": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.SpatialData": true,
+        "galaxy.datatypes.binary.CompressedZipArchive": true,
+        "galaxy.datatypes.binary.CompressedZarrZipArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.CompressedArchiveGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.registry.CompressedArchiveGz": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.CompressedArchiveBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.CompressedArchiveBz2": true,
+        "galaxy.datatypes.registry.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.data.Directory": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Directory": true
+      },
+      "galaxy.datatypes.registry.Directory": {
+        "galaxy.datatypes.data.Directory": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.Directory": true
+      },
+      "galaxy.datatypes.data.ZarrDirectory": {
+        "galaxy.datatypes.data.Directory": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.ZarrDirectory": true
+      },
+      "galaxy.datatypes.images.OMEZarr": {
+        "galaxy.datatypes.data.Directory": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.OMEZarr": true,
+        "galaxy.datatypes.data.ZarrDirectory": true
+      },
+      "galaxy.datatypes.text.Yaml": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.Yaml": true
+      },
+      "galaxy.datatypes.proteomics.Dta": {
+        "galaxy.datatypes.proteomics.Dta": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.tabular.TabularData": true
+      },
+      "galaxy.datatypes.proteomics.Dta2d": {
+        "galaxy.datatypes.proteomics.Dta2d": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.tabular.TabularData": true
+      },
+      "galaxy.datatypes.proteomics.Edta": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.Edta": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.tabular.TabularData": true
+      },
+      "galaxy.datatypes.proteomics.PepXml": {
+        "galaxy.datatypes.proteomics.PepXml": true,
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.PepXml": {
+        "galaxy.datatypes.proteomics.PepXml": true,
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.registry.PepXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.ProtXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.ProtXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.ParamXml": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.ParamXml": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.proteomics.ParamXml": true
+      },
+      "galaxy.datatypes.proteomics.Kroenik": {
+        "galaxy.datatypes.proteomics.Kroenik": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.PepList": {
+        "galaxy.datatypes.proteomics.PepList": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.PSMS": {
+        "galaxy.datatypes.proteomics.PSMS": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.PepXmlReport": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.proteomics.PepXmlReport": true
+      },
+      "galaxy.datatypes.proteomics.ProtXmlReport": {
+        "galaxy.datatypes.proteomics.ProtXmlReport": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MascotDat": {
+        "galaxy.datatypes.proteomics.MascotDat": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MzIdentML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.proteomics.MzIdentML": true
+      },
+      "galaxy.datatypes.proteomics.IdXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.IdXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.TandemXML": {
+        "galaxy.datatypes.proteomics.TandemXML": true,
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.ThermoRAW": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.ThermoRAW": true
+      },
+      "galaxy.datatypes.binary.BafTar": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.YepTar": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.YepTar": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.TdfTar": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.TdfTar": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.MassHunterTar": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.MassHunterTar": true
+      },
+      "galaxy.datatypes.binary.MassLynxTar": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.MassLynxTar": true
+      },
+      "galaxy.datatypes.binary.WiffTar": {
+        "galaxy.datatypes.binary.WiffTar": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Wiff2Tar": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Wiff2Tar": true,
+        "galaxy.datatypes.binary.BafTar": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.proteomics.MascotXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.MascotXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MzTab": {
+        "galaxy.datatypes.proteomics.MzTab": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MzTab2": {
+        "galaxy.datatypes.proteomics.MzTab2": true,
+        "galaxy.datatypes.proteomics.MzTab": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MzML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.MzML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.NmrML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.NmrML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Meryldb": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.registry.Meryldb": true,
+        "galaxy.datatypes.binary.Meryldb": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Bref3": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Bref3": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.proteomics.Mgf": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.proteomics.Mgf": true
+      },
+      "galaxy.datatypes.proteomics.Wiff": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.Wiff": true
+      },
+      "galaxy.datatypes.proteomics.Wiff2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.Wiff2": true
+      },
+      "galaxy.datatypes.proteomics.MzXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.MzXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MzData": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.MzData": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.Ms2": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.Ms2": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.MzQuantML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.MzQuantML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.SQlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.MzSQlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.MzSQlite": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.Mzlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Mzlite": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.OSW": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OSW": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.PQP": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.PQP": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.proteomics.TraML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.TraML": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.TrafoXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.TrafoXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.FeatureXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.FeatureXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.ConsensusXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.ConsensusXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.UniProtXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.UniProtXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.XquestXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.XquestXML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.XquestSpecXML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.XquestSpecXML": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.QCML": {
+        "galaxy.datatypes.proteomics.ProteomicsXml": true,
+        "galaxy.datatypes.proteomics.QCML": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.Msp": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.proteomics.Msp": true
+      },
+      "galaxy.datatypes.proteomics.SPLibNoIndex": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.SPLibNoIndex": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.SPLib": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.proteomics.SPLib": true,
+        "galaxy.datatypes.proteomics.Msp": true
+      },
+      "galaxy.datatypes.binary.BlibSQlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.BlibSQlite": true
+      },
+      "galaxy.datatypes.binary.DlibSQlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.DlibSQlite": true
+      },
+      "galaxy.datatypes.binary.ElibSQlite": {
+        "galaxy.datatypes.binary.ElibSQlite": true,
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.proteomics.XHunterAslFormat": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.proteomics.XHunterAslFormat": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.IdpDB": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.IdpDB": true
+      },
+      "galaxy.datatypes.proteomics.Sf3": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.proteomics.Sf3": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.tabular.ConnectivityTable": {
+        "galaxy.datatypes.tabular.ConnectivityTable": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.PostgresqlArchive": {
+        "galaxy.datatypes.binary.PostgresqlArchive": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.MongoDBArchive": {
+        "galaxy.datatypes.binary.MongoDBArchive": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.GeneNoteBook": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.GeneNoteBook": true,
+        "galaxy.datatypes.binary.MongoDBArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.SearchGuiArchive": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.SearchGuiArchive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Fast5Archive": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Fast5Archive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Fast5ArchiveGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Fast5Archive": true,
+        "galaxy.datatypes.binary.Fast5ArchiveGz": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Fast5ArchiveBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Fast5ArchiveBz2": true,
+        "galaxy.datatypes.binary.Fast5Archive": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Fast5ArchiveXz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.Fast5Archive": true,
+        "galaxy.datatypes.binary.Fast5ArchiveXz": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Pod5": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Pod5": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.GenericXml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.registry.GenericXml": true
+      },
+      "galaxy.datatypes.proteomics.ImzML": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.proteomics.ImzML": true
+      },
+      "galaxy.datatypes.images.Analyze75": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Analyze75": true
+      },
+      "galaxy.datatypes.images.Nifti1": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.images.Nifti1": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.Nifti1Gz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.images.Nifti1": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.Nifti1Gz": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Nifti2": {
+        "galaxy.datatypes.images.Nifti2": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.registry.Nifti2Gz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.images.Nifti2": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.Nifti2Gz": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Gifti": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.images.Gifti": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.GiftiGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.images.Gifti": true,
+        "galaxy.datatypes.registry.GiftiGz": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.images.Tck": {
+        "galaxy.datatypes.images.Tck": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.images.Trk": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.images.Trk": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Mrc2014": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.images.Mrc2014": true
+      },
+      "galaxy.datatypes.images.Star": {
+        "galaxy.datatypes.images.Star": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.proteomics.PEFF": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.proteomics.PEFF": true
+      },
+      "galaxy.datatypes.flow.FCS": {
+        "galaxy.datatypes.flow.FCS": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.registry.RData": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.registry.RData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.RData": true
+      },
+      "galaxy.datatypes.metacyto.mSummary": {
+        "galaxy.datatypes.metacyto.mSummary": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.metacyto.mStats": {
+        "galaxy.datatypes.metacyto.mStats": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.NetCDF": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.NetCDF": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Eps": {
+        "galaxy.datatypes.images.Eps": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Rast": {
+        "galaxy.datatypes.images.Rast": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.images.Laj": {
+        "galaxy.datatypes.images.Laj": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.Lav": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.Lav": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.Maf": {
+        "galaxy.datatypes.sequence.Alignment": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.Maf": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.MafGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.sequence.Alignment": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.Maf": true,
+        "galaxy.datatypes.registry.MafGz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.MafBz2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.sequence.Alignment": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.sequence.Maf": true,
+        "galaxy.datatypes.binary.Bz2DynamicCompressedArchive": true,
+        "galaxy.datatypes.registry.MafBz2": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.MafCustomTrack": {
+        "galaxy.datatypes.sequence.MafCustomTrack": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.MatrixMarket": {
+        "galaxy.datatypes.tabular.MatrixMarket": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.tabular.TabularData": true
+      },
+      "galaxy.datatypes.tabular.CMAP": {
+        "galaxy.datatypes.tabular.CMAP": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.tabular.TabularData": true
+      },
+      "galaxy.datatypes.interval.ENCODEPeak": {
+        "galaxy.datatypes.interval.ENCODEPeak": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.FourDNPairs": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.FourDNPairs": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FourDNPairsGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.FourDNPairs": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.registry.FourDNPairsGz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.FourDNPairsam": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.FourDNPairsam": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.FourDNPairsamGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.FourDNPairsam": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.registry.FourDNPairsamGz": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.images.Pdf": {
+        "galaxy.datatypes.images.Pdf": true,
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.tabular.Pileup": {
+        "galaxy.datatypes.tabular.Pileup": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.Psl": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.tabular.Psl": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Obo": {
+        "galaxy.datatypes.text.Obo": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.Owl": {
+        "galaxy.datatypes.xml.Owl": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.images.Png": {
+        "galaxy.datatypes.images.Image": true,
+        "galaxy.datatypes.images.Png": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.qualityscore.QualityScore": {
+        "galaxy.datatypes.qualityscore.QualityScore": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.qualityscore.QualityScoreSolexa": {
+        "galaxy.datatypes.qualityscore.QualityScoreSolexa": true,
+        "galaxy.datatypes.qualityscore.QualityScore": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.qualityscore.QualityScoreIllumina": {
+        "galaxy.datatypes.qualityscore.QualityScore": true,
+        "galaxy.datatypes.qualityscore.QualityScoreIllumina": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.qualityscore.QualityScoreSOLiD": {
+        "galaxy.datatypes.qualityscore.QualityScore": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.qualityscore.QualityScoreSOLiD": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.qualityscore.QualityScore454": {
+        "galaxy.datatypes.qualityscore.QualityScore": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.qualityscore.QualityScore454": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.assembly.Roadmaps": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.assembly.Roadmaps": true
+      },
+      "galaxy.datatypes.tabular.Sam": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.tabular.Sam": true
+      },
+      "galaxy.datatypes.binary.Scf": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Scf": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.assembly.Sequences": {
+        "galaxy.datatypes.sequence.Fasta": true,
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.assembly.Sequences": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.SnpEffDb": {
+        "galaxy.datatypes.text.SnpEffDb": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.SnpSiftDbNSFP": {
+        "galaxy.datatypes.text.SnpSiftDbNSFP": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.Sff": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Sff": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.Sra": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Sra": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.tabular.SraManifest": {
+        "galaxy.datatypes.tabular.SraManifest": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.Taxonomy": {
+        "galaxy.datatypes.tabular.Taxonomy": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.Tabular": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true
+      },
+      "galaxy.datatypes.registry.TabularGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.TabularGz": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.TwoBit": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.TwoBit": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.SQmass": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.SQmass": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.GeminiSQLite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GeminiSQLite": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.ChiraSQLite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.ChiraSQLite": true
+      },
+      "galaxy.datatypes.binary.CuffDiffSQlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.binary.CuffDiffSQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.GAFASQLite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GAFASQLite": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.binary.NcbiTaxonomySQlite": {
+        "galaxy.datatypes.binary.SQlite": true,
+        "galaxy.datatypes.binary.NcbiTaxonomySQlite": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.data.Text": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.data.LineCount": {
+        "galaxy.datatypes.data.LineCount": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.sequence.MemePsp": {
+        "galaxy.datatypes.sequence.Sequence": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.MemePsp": true
+      },
+      "galaxy.datatypes.xml.MEMEXml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.xml.MEMEXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.CisML": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.xml.CisML": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.Tei": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.xml.Tei": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.GenericXml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.Dzi": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.xml.Dzi": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.Vcf": {
+        "galaxy.datatypes.tabular.Vcf": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.tabular.BaseVcf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.Bcf": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.BaseBcf": true,
+        "galaxy.datatypes.binary.Bcf": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.registry.Bcf": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.BaseBcf": true,
+        "galaxy.datatypes.binary.Bcf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.registry.Bcf": true
+      },
+      "galaxy.datatypes.binary.BcfUncompressed": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.BaseBcf": true,
+        "galaxy.datatypes.binary.BcfUncompressed": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.assembly.Velvet": {
+        "galaxy.datatypes.assembly.Velvet": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.Wiggle": {
+        "galaxy.datatypes.interval.Wiggle": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.IntervalTabix": {
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.interval.IntervalTabix": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.JuicerMediumTabix": {
+        "galaxy.datatypes.interval.JuicerMediumTabix": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.interval.IntervalTabix": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.BedTabix": {
+        "galaxy.datatypes.interval.BedTabix": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.interval.IntervalTabix": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.interval.GffTabix": {
+        "galaxy.datatypes.interval.GffTabix": true,
+        "galaxy.datatypes.interval.Interval": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.interval.IntervalTabix": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tabular.VcfGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.tabular.VcfGz": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.tabular.BaseVcf": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.xml.Phyloxml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.xml.Phyloxml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.data.Newick": {
+        "galaxy.datatypes.data.Newick": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Newick": {
+        "galaxy.datatypes.data.Newick": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.registry.Newick": true
+      },
+      "galaxy.datatypes.data.Nexus": {
+        "galaxy.datatypes.data.Nexus": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.IQTree": {
+        "galaxy.datatypes.text.IQTree": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.SquareDistanceMatrix": {
+        "galaxy.datatypes.mothur.SquareDistanceMatrix": true,
+        "galaxy.datatypes.mothur.DistanceMatrix": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.genetics.Affybatch": {
+        "galaxy.datatypes.genetics.Affybatch": true,
+        "galaxy.datatypes.genetics.RexpBase": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Eigenstratgeno": {
+        "galaxy.datatypes.genetics.Eigenstratgeno": true,
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Eigenstratpca": {
+        "galaxy.datatypes.genetics.Eigenstratpca": true,
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Eset": {
+        "galaxy.datatypes.genetics.RexpBase": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.Eset": true
+      },
+      "galaxy.datatypes.genetics.Fped": {
+        "galaxy.datatypes.genetics.Fped": true,
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Fphe": {
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.genetics.Fphe": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.GenomeGraphs": {
+        "galaxy.datatypes.genetics.GenomeGraphs": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.ldIndep": {
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.ldIndep": true
+      },
+      "galaxy.datatypes.genetics.MAlist": {
+        "galaxy.datatypes.genetics.RexpBase": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.genetics.MAlist": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Lped": {
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.genetics.Lped": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Pbed": {
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.genetics.Pbed": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Pheno": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.genetics.Pheno": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.Pphe": {
+        "galaxy.datatypes.genetics.Pphe": true,
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.RexpBase": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.genetics.RexpBase": true
+      },
+      "galaxy.datatypes.genetics.Rgenetics": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.genetics.Rgenetics": true
+      },
+      "galaxy.datatypes.genetics.Snptest": {
+        "galaxy.datatypes.genetics.Snptest": true,
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.SNPMatrix": {
+        "galaxy.datatypes.genetics.Rgenetics": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.genetics.SNPMatrix": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.ExcelXls": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.ExcelXls": true
+      },
+      "galaxy.datatypes.text.Ipynb": {
+        "galaxy.datatypes.text.Ipynb": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Json": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.ExpressionJson": {
+        "galaxy.datatypes.text.ExpressionJson": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.graph.Xgmml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.graph.Xgmml": true
+      },
+      "galaxy.datatypes.graph.Sif": {
+        "galaxy.datatypes.graph.Sif": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.triples.Triples": {
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.triples.HDT": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.triples.HDT": true
+      },
+      "galaxy.datatypes.triples.NTriples": {
+        "galaxy.datatypes.triples.NTriples": true,
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.triples.N3": {
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.triples.N3": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.triples.Turtle": {
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.triples.Turtle": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.triples.Rdf": {
+        "galaxy.datatypes.triples.Rdf": true,
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.triples.Jsonld": {
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.triples.Jsonld": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.triples.Sbol": {
+        "galaxy.datatypes.triples.Triples": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.triples.Sbol": true
+      },
+      "galaxy.datatypes.binary.Xlsx": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Xlsx": true
+      },
+      "galaxy.datatypes.binary.Docx": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Docx": true
+      },
+      "galaxy.datatypes.binary.Pptx": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Pptx": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.sequence.Genbank": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.sequence.Genbank": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.GenbankGz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.sequence.Genbank": true,
+        "galaxy.datatypes.registry.GenbankGz": true,
+        "galaxy.datatypes.binary.DynamicCompressedArchive": true,
+        "galaxy.datatypes.binary.GzDynamicCompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.phylip.Phylip": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.phylip.Phylip": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.msa.Msf": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.msa.Msf": true
+      },
+      "galaxy.datatypes.annotation.SnapHmm": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.annotation.SnapHmm": true
+      },
+      "galaxy.datatypes.annotation.Augustus": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.annotation.Augustus": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.ICM": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.ICM": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.msa.InfernalCM": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.msa.InfernalCM": true
+      },
+      "galaxy.datatypes.msa.Hmmer2": {
+        "galaxy.datatypes.msa.Hmmer": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.msa.Hmmer2": true
+      },
+      "galaxy.datatypes.msa.Hmmer3": {
+        "galaxy.datatypes.msa.Hmmer": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.msa.Hmmer3": true
+      },
+      "galaxy.datatypes.msa.Stockholm_1_0": {
+        "galaxy.datatypes.msa.Stockholm_1_0": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.msa.MauveXmfa": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.msa.MauveXmfa": true
+      },
+      "galaxy.datatypes.binary.Cel": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Cel": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.microarrays.Gpr": {
+        "galaxy.datatypes.microarrays.Gpr": true,
+        "galaxy.datatypes.microarrays.GenericMicroarrayFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.microarrays.Gal": {
+        "galaxy.datatypes.microarrays.GenericMicroarrayFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.microarrays.Gal": true
+      },
+      "galaxy.datatypes.binary.RDS": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.RDS": true
+      },
+      "galaxy.datatypes.registry.RDS": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.RDS": true,
+        "galaxy.datatypes.registry.RDS": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.RData": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.RData": true
+      },
+      "galaxy.datatypes.hdf5.HDF5SummarizedExperiment": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.hdf5.HDF5SummarizedExperiment": true
+      },
+      "galaxy.datatypes.text.Prm": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.Prm": true
+      },
+      "galaxy.datatypes.binary.OxliCountGraph": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.OxliCountGraph": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OxliBinary": true
+      },
+      "galaxy.datatypes.binary.OxliNodeGraph": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OxliBinary": true,
+        "galaxy.datatypes.binary.OxliNodeGraph": true
+      },
+      "galaxy.datatypes.binary.OxliTagSet": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.OxliTagSet": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OxliBinary": true
+      },
+      "galaxy.datatypes.binary.OxliStopTags": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.OxliStopTags": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OxliBinary": true
+      },
+      "galaxy.datatypes.binary.OxliSubset": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OxliSubset": true,
+        "galaxy.datatypes.binary.OxliBinary": true
+      },
+      "galaxy.datatypes.binary.OxliGraphLabels": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.OxliGraphLabels": true,
+        "galaxy.datatypes.binary.OxliBinary": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.PlyAscii": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.constructive_solid_geometry.PlyAscii": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.PlyBinary": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.constructive_solid_geometry.PlyBinary": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.VtkAscii": {
+        "galaxy.datatypes.constructive_solid_geometry.VtkAscii": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.VtkBinary": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.constructive_solid_geometry.VtkBinary": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.VtpAscii": {
+        "galaxy.datatypes.constructive_solid_geometry.VtpAscii": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.VtpBinary": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.constructive_solid_geometry.VtpBinary": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.text.Biom1": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.text.Biom1": true
+      },
+      "galaxy.datatypes.binary.Biom2": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.H5": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Biom2": true
+      },
+      "galaxy.datatypes.binary.MashSketch": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.MashSketch": true
+      },
+      "galaxy.datatypes.text.SourmashSignature": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.SourmashSignature": true
+      },
+      "galaxy.datatypes.interval.ScIdx": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.interval.ScIdx": true
+      },
+      "galaxy.datatypes.molecules.SMILES": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.molecules.SMILES": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.SDF": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.molecules.SDF": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.InChI": {
+        "galaxy.datatypes.molecules.InChI": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.MOL": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.molecules.MOL": true
+      },
+      "galaxy.datatypes.molecules.MOL2": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.molecules.MOL2": true
+      },
+      "galaxy.datatypes.molecules.CML": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.molecules.CML": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.FPS": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.molecules.FPS": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.OBFS": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.molecules.OBFS": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.molecules.DRF": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.molecules.DRF": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.PHAR": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.molecules.PHAR": true
+      },
+      "galaxy.datatypes.molecules.PDB": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.molecules.PDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.PDBQT": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.molecules.PDBQT": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.PQR": {
+        "galaxy.datatypes.molecules.PQR": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.molecules.GenericMolFile": true
+      },
+      "galaxy.datatypes.molecules.Cell": {
+        "galaxy.datatypes.molecules.AtomicStructFile": true,
+        "galaxy.datatypes.molecules.Cell": true,
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.CIF": {
+        "galaxy.datatypes.molecules.AtomicStructFile": true,
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.molecules.CIF": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.XYZ": {
+        "galaxy.datatypes.molecules.AtomicStructFile": true,
+        "galaxy.datatypes.molecules.XYZ": true,
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.ExtendedXYZ": {
+        "galaxy.datatypes.molecules.AtomicStructFile": true,
+        "galaxy.datatypes.molecules.XYZ": true,
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.molecules.ExtendedXYZ": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.Magres": {
+        "galaxy.datatypes.molecules.AtomicStructFile": true,
+        "galaxy.datatypes.molecules.Magres": true,
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.Trr": {
+        "galaxy.datatypes.binary.Trr": true,
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GmxBinary": true
+      },
+      "galaxy.datatypes.binary.Dcd": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Dcd": true
+      },
+      "galaxy.datatypes.binary.Xtc": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Xtc": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GmxBinary": true
+      },
+      "galaxy.datatypes.binary.Cpt": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Cpt": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GmxBinary": true
+      },
+      "galaxy.datatypes.binary.Edr": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.GmxBinary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Edr": true
+      },
+      "galaxy.datatypes.molecules.GRO": {
+        "galaxy.datatypes.molecules.GenericMolFile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.molecules.GRO": true
+      },
+      "galaxy.datatypes.binary.Vel": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Vel": true
+      },
+      "galaxy.datatypes.molecules.grd": {
+        "galaxy.datatypes.molecules.grd": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.molecules.grdtgz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.molecules.grdtgz": true
+      },
+      "galaxy.datatypes.mothur.Otu": {
+        "galaxy.datatypes.mothur.Otu": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Otu": {
+        "galaxy.datatypes.registry.Otu": true,
+        "galaxy.datatypes.mothur.Otu": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Sabund": {
+        "galaxy.datatypes.mothur.Otu": true,
+        "galaxy.datatypes.mothur.Sabund": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Sabund": {
+        "galaxy.datatypes.registry.Sabund": true,
+        "galaxy.datatypes.mothur.Otu": true,
+        "galaxy.datatypes.mothur.Sabund": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.GroupAbund": {
+        "galaxy.datatypes.mothur.Otu": true,
+        "galaxy.datatypes.mothur.GroupAbund": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.GroupAbund": {
+        "galaxy.datatypes.registry.GroupAbund": true,
+        "galaxy.datatypes.mothur.Otu": true,
+        "galaxy.datatypes.mothur.GroupAbund": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Names": {
+        "galaxy.datatypes.mothur.Names": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Group": {
+        "galaxy.datatypes.mothur.Group": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.registry.Group": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Summary": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.mothur.Summary": true
+      },
+      "galaxy.datatypes.mothur.Group": {
+        "galaxy.datatypes.mothur.Group": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Oligos": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.mothur.Oligos": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.AccNos": {
+        "galaxy.datatypes.mothur.AccNos": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.SecondaryStructureMap": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.mothur.SecondaryStructureMap": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.AlignCheck": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.mothur.AlignCheck": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.AlignReport": {
+        "galaxy.datatypes.mothur.AlignReport": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.LaneMask": {
+        "galaxy.datatypes.mothur.LaneMask": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.DistanceMatrix": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.mothur.DistanceMatrix": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.PairwiseDistanceMatrix": {
+        "galaxy.datatypes.mothur.DistanceMatrix": true,
+        "galaxy.datatypes.mothur.PairwiseDistanceMatrix": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.LowerTriangleDistanceMatrix": {
+        "galaxy.datatypes.mothur.LowerTriangleDistanceMatrix": true,
+        "galaxy.datatypes.mothur.DistanceMatrix": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.mothur.RefTaxonomy": {
+        "galaxy.datatypes.mothur.RefTaxonomy": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.RefTaxonomy": {
+        "galaxy.datatypes.mothur.RefTaxonomy": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.registry.RefTaxonomy": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.ConsensusTaxonomy": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.mothur.ConsensusTaxonomy": true
+      },
+      "galaxy.datatypes.mothur.TaxonomySummary": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.mothur.TaxonomySummary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Frequency": {
+        "galaxy.datatypes.mothur.Frequency": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Quantile": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.mothur.Quantile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.Quantile": {
+        "galaxy.datatypes.registry.Quantile": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.mothur.Quantile": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.Axes": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.mothur.Axes": true
+      },
+      "galaxy.datatypes.mothur.SffFlow": {
+        "galaxy.datatypes.mothur.SffFlow": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.mothur.CountTable": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.mothur.CountTable": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.neo4j.Neo4jDB": {
+        "galaxy.datatypes.images.Html": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.neo4j.Neo4j": true,
+        "galaxy.datatypes.neo4j.Neo4jDB": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.neo4j.Neo4jDBzip": {
+        "galaxy.datatypes.neo4j.Neo4jDBzip": true,
+        "galaxy.datatypes.images.Html": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.neo4j.Neo4j": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.tracks.UCSCTrackHub": {
+        "galaxy.datatypes.tracks.UCSCTrackHub": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.blast.BlastXml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.blast.BlastXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.blast.BlastNucDb": {
+        "galaxy.datatypes.blast._BlastDb": true,
+        "galaxy.datatypes.blast.BlastNucDb": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.blast.BlastProtDb": {
+        "galaxy.datatypes.blast._BlastDb": true,
+        "galaxy.datatypes.blast.BlastProtDb": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.blast.BlastDomainDb": {
+        "galaxy.datatypes.blast.BlastDomainDb": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.blast._BlastDb": true
+      },
+      "galaxy.datatypes.blast.LastDb": {
+        "galaxy.datatypes.blast.LastDb": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.blast.BlastNucDb5": {
+        "galaxy.datatypes.blast.BlastNucDb5": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.blast._BlastDb": true
+      },
+      "galaxy.datatypes.blast.BlastProtDb5": {
+        "galaxy.datatypes.blast._BlastDb": true,
+        "galaxy.datatypes.blast.BlastProtDb5": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.blast.BlastDomainDb5": {
+        "galaxy.datatypes.blast.BlastDomainDb5": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.blast._BlastDb": true
+      },
+      "galaxy.datatypes.registry.GenericAsn1": {
+        "galaxy.datatypes.data.GenericAsn1": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.registry.GenericAsn1": true
+      },
+      "galaxy.datatypes.registry.GenericAsn1Binary": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.GenericAsn1Binary": true,
+        "galaxy.datatypes.registry.GenericAsn1Binary": true
+      },
+      "galaxy.datatypes.plant_tribes.PlantTribesKsComponents": {
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.plant_tribes.PlantTribesKsComponents": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.plant_tribes.Smat": {
+        "galaxy.datatypes.plant_tribes.Smat": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.genetics.GenotypeMatrix": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.GenotypeMatrix": true,
+        "galaxy.datatypes.genetics.LinkageStudies": true
+      },
+      "galaxy.datatypes.genetics.DataIn": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.genetics.LinkageStudies": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.DataIn": true
+      },
+      "galaxy.datatypes.genetics.MarkerMap": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.MarkerMap": true,
+        "galaxy.datatypes.genetics.LinkageStudies": true
+      },
+      "galaxy.datatypes.genetics.AllegroLOD": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.genetics.AllegroLOD": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.LinkageStudies": true
+      },
+      "galaxy.datatypes.genetics.IdeasPre": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Html": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.genetics.IdeasPre": true
+      },
+      "galaxy.datatypes.xml.Sbml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.xml.Sbml": true
+      },
+      "galaxy.datatypes.spaln.SpalnNuclDb": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.spaln.SpalnNuclDb": true,
+        "galaxy.datatypes.spaln._SpalnDb": true
+      },
+      "galaxy.datatypes.spaln.SpalnProtDb": {
+        "galaxy.datatypes.spaln.SpalnProtDb": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.spaln._SpalnDb": true
+      },
+      "galaxy.datatypes.media.Wav": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Wav": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Audio": true
+      },
+      "galaxy.datatypes.media.Mp3": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Mp3": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Audio": true
+      },
+      "galaxy.datatypes.media.Ogg": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Ogg": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Audio": true
+      },
+      "galaxy.datatypes.media.Wma": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Audio": true,
+        "galaxy.datatypes.media.Wma": true
+      },
+      "galaxy.datatypes.media.Mkv": {
+        "galaxy.datatypes.media.Mkv": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.media.Mp4": {
+        "galaxy.datatypes.media.Mp4": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.media.M4a": {
+        "galaxy.datatypes.media.M4a": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Audio": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.media.Flv": {
+        "galaxy.datatypes.media.Flv": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.media.Flac": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Flac": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Audio": true
+      },
+      "galaxy.datatypes.media.Webm": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.media.Webm": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.media.Mpg": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.media.Mpg": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.media.Mov": {
+        "galaxy.datatypes.media.Mov": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Binary": true
+      },
+      "galaxy.datatypes.media.Avi": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Avi": true
+      },
+      "galaxy.datatypes.media.Wmv": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.media.Video": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.media.Wmv": true
+      },
+      "galaxy.datatypes.speech.TextGrid": {
+        "galaxy.datatypes.speech.TextGrid": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.speech.BPF": {
+        "galaxy.datatypes.speech.BPF": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.binary.Pretext": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.Pretext": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.HexrdMaterials": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.H5": true,
+        "galaxy.datatypes.binary.HexrdMaterials": true
+      },
+      "galaxy.datatypes.binary.Npz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Npz": true
+      },
+      "galaxy.datatypes.binary.HexrdImagesNpz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.HexrdImagesNpz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Npz": true
+      },
+      "galaxy.datatypes.binary.HexrdEtaOmeNpz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.binary.HexrdEtaOmeNpz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Npz": true
+      },
+      "galaxy.datatypes.registry.Npz": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.binary.CompressedArchive": true,
+        "galaxy.datatypes.registry.Npz": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Npz": true
+      },
+      "galaxy.datatypes.registry.Yaml": {
+        "galaxy.datatypes.registry.Yaml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.Yaml": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.NeperTess": {
+        "galaxy.datatypes.constructive_solid_geometry.NeperTess": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.NeperTesr": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.constructive_solid_geometry.NeperTesr": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.NeperPoints": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.constructive_solid_geometry.NeperPoints": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.NeperPointsTabular": {
+        "galaxy.datatypes.constructive_solid_geometry.NeperPointsTabular": true,
+        "galaxy.datatypes.tabular.Tabular": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.constructive_solid_geometry.NeperPoints": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.NeperMultiScaleCell": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.constructive_solid_geometry.NeperMultiScaleCell": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.GmshMsh": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.constructive_solid_geometry.GmshMsh": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.GmshGeo": {
+        "galaxy.datatypes.constructive_solid_geometry.GmshGeo": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.ZsetGeof": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.constructive_solid_geometry.ZsetGeof": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.VtkXml": {
+        "galaxy.datatypes.xml.GenericXml": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.constructive_solid_geometry.VtkXml": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.GocadSGrid": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.constructive_solid_geometry.GocadSGrid": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.FeflowFem": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.constructive_solid_geometry.FeflowFem": true
+      },
+      "galaxy.datatypes.constructive_solid_geometry.AsciiRaster": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.constructive_solid_geometry.AsciiRaster": true
+      },
+      "galaxy.datatypes.text.PithyaResult": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.PithyaResult": true
+      },
+      "galaxy.datatypes.text.PithyaProperty": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.PithyaProperty": true
+      },
+      "galaxy.datatypes.text.PithyaModel": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.PithyaModel": true
+      },
+      "galaxy.datatypes.text.BCSLts": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.Json": true,
+        "galaxy.datatypes.text.BCSLts": true
+      },
+      "galaxy.datatypes.text.BCSLmodel": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.BCSLmodel": true
+      },
+      "galaxy.datatypes.text.StormSample": {
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.text.StormSample": true
+      },
+      "galaxy.datatypes.text.StormCheck": {
+        "galaxy.datatypes.text.StormCheck": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.CTLresult": {
+        "galaxy.datatypes.text.CTLresult": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Castep": {
+        "galaxy.datatypes.text.Castep": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.text.Param": {
+        "galaxy.datatypes.text.Param": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.Yaml": true
+      },
+      "galaxy.datatypes.text.FormattedDensity": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.text.FormattedDensity": true
+      },
+      "galaxy.datatypes.larch.AthenaProject": {
+        "galaxy.datatypes.larch.AthenaProject": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.larch.FEFFInput": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.larch.FEFFInput": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.registry.CSV": {
+        "galaxy.datatypes.tabular.CSV": true,
+        "galaxy.datatypes.tabular.BaseCSV": true,
+        "galaxy.datatypes.registry.CSV": true,
+        "galaxy.datatypes.tabular.TabularData": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true
+      },
+      "galaxy.datatypes.gis.Shapefile": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.gis.Shapefile": true,
+        "galaxy.datatypes.data.Data": true
+      },
+      "galaxy.datatypes.binary.FITS": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.FITS": true
+      },
+      "galaxy.datatypes.chain.Chain": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.chain.Chain": true
+      },
+      "galaxy.datatypes.chain.Net": {
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.data.Text": true,
+        "galaxy.datatypes.chain.Net": true
+      },
+      "galaxy.datatypes.binary.Safetensors": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.Safetensors": true
+      },
+      "galaxy.datatypes.binary.TensorBoardEvents": {
+        "galaxy.datatypes.binary.Binary": true,
+        "galaxy.datatypes.data.Data": true,
+        "galaxy.datatypes.binary.TensorBoardEvents": true
+      }
+    }
+  }
+}

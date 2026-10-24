@@ -1,0 +1,11 @@
+{
+  "reviewed": [
+    "before.png",
+    "after.png"
+  ],
+  "content": "Actual Galaxy node and connection components rendered in headless Chrome. Before has two invalid mapped-null edges; after has zero, same four connections, and optional dashed styling remains. Local reproduction labeled explicitly. No image generation or screenshot editing.",
+  "sha256": {
+    "before.png": "c5648e2d09ba1eaccb05a8beaa5ff4bbf667d187dccb6268398597bccd65da16",
+    "after.png": "c7c9fab1783abeeb265bea1fc8864ed80fe04a7a69910bb2be548d6a66729871"
+  }
+}

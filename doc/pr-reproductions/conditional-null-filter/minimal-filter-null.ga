@@ -1,0 +1,138 @@
+{
+  "a_galaxy_workflow": "true",
+  "format-version": "0.1",
+  "name": "Conditional mapped output into Filter null elements",
+  "annotation": "",
+  "tags": [],
+  "uuid": "3ae10a0d-9e37-4e84-ac51-097d9cc9d614",
+  "steps": {
+    "0": {
+      "id": 0,
+      "type": "data_collection_input",
+      "label": "input_collection",
+      "name": "input_collection",
+      "annotation": "",
+      "tool_state": {
+        "name": "input_collection",
+        "format": "txt",
+        "collection_type": "list"
+      },
+      "position": {
+        "left": 0,
+        "top": 0
+      },
+      "input_connections": {},
+      "inputs": [
+        {
+          "name": "input_collection",
+          "description": ""
+        }
+      ],
+      "outputs": [],
+      "workflow_outputs": [],
+      "post_job_actions": {}
+    },
+    "1": {
+      "id": 1,
+      "type": "parameter_input",
+      "label": "run",
+      "name": "run",
+      "annotation": "",
+      "tool_state": {
+        "name": "run",
+        "parameter_type": "boolean",
+        "default": true
+      },
+      "position": {
+        "left": 10,
+        "top": 10
+      },
+      "input_connections": {},
+      "inputs": [
+        {
+          "name": "run",
+          "description": ""
+        }
+      ],
+      "outputs": [],
+      "workflow_outputs": [],
+      "post_job_actions": {}
+    },
+    "2": {
+      "id": 2,
+      "type": "tool",
+      "label": "conditional_copy",
+      "name": "cat1",
+      "annotation": "",
+      "tool_id": "cat1",
+      "tool_version": "1.0.0",
+      "tool_state": {
+        "__page__": 0,
+        "input1": {
+          "__class__": "ConnectedValue"
+        },
+        "queries": []
+      },
+      "input_connections": {
+        "input1": [
+          {
+            "id": 0,
+            "output_name": "output"
+          }
+        ],
+        "when": [
+          {
+            "id": 1,
+            "output_name": "output"
+          }
+        ]
+      },
+      "post_job_actions": {},
+      "position": {
+        "left": 20,
+        "top": 20
+      },
+      "when": "$(inputs.when)",
+      "inputs": [],
+      "outputs": [],
+      "workflow_outputs": []
+    },
+    "3": {
+      "id": 3,
+      "type": "tool",
+      "label": "filter_null",
+      "name": "__FILTER_NULL__",
+      "annotation": "",
+      "tool_id": "__FILTER_NULL__",
+      "tool_version": "1.1.0",
+      "tool_state": {
+        "__page__": 0,
+        "input": {
+          "__class__": "ConnectedValue"
+        },
+        "replacement": null
+      },
+      "input_connections": {
+        "input": [
+          {
+            "id": 2,
+            "output_name": "out_file1"
+          }
+        ]
+      },
+      "post_job_actions": {},
+      "position": {
+        "left": 30,
+        "top": 30
+      },
+      "inputs": [],
+      "outputs": [],
+      "workflow_outputs": [
+        {
+          "output_name": "output",
+          "label": "filtered"
+        }
+      ]
+    }
+  }
+}
